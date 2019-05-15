@@ -266,4 +266,16 @@ header .header-p {
 }
 .join .form-content #form {
   margin: 1rem;
+  width: 30rem;
+  padding: 0.5rem;
+  border: 2px solid #cccdd6;
+}
+.join .form-content .join-now {
+  width: 30rem;
+  padding: 0.5rem;
+  background: white;
+  border: 2px solid #5e50bc;
+  border-radius: 5px;
+  margin: 1.5rem;
+  font-weight: 600;
 }
