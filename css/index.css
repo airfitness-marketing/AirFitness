@@ -170,3 +170,23 @@ header .header-p {
   border-radius: 30px;
   box-shadow: 3px 3px 3px 3px lightgray;
 }
+.join {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #694cf2;
+  border-radius: 15px;
+  padding: 3rem 0;
+  background: linear-gradient(0.25turn, #694cf2, #889bfb);
+}
+.join .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.join .form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
