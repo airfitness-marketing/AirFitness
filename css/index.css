@@ -126,3 +126,47 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html {
+  font-size: 62.5%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2rem;
+}
+header .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .header h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  font-weight: 600;
+}
+header .header h1 .fitness {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+header .header i {
+  font-size: 3rem;
+}
+header .header-p {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top-nav .welcome {
+  font-size: 3rem;
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 30px;
+  box-shadow: 1px 1px 1px lightgray;
+}
