@@ -183,7 +183,7 @@ header .header-p {
   flex-direction: row;
   justify-content: center;
   color: #ffffff;
-  background-color: #6876fa;
+  background: linear-gradient(0.25turn, #44398c, #6876fa);
 }
 .card-container .card1 img {
   width: 20%;
@@ -202,7 +202,7 @@ header .header-p {
   flex-direction: column;
   justify-content: center;
   color: #ffffff;
-  background-color: #17ead9;
+  background: linear-gradient(0.25turn, #90e7e0, dodgerblue);
 }
 .card-container .card2 h3 {
   font-size: 2.5rem;
@@ -217,7 +217,7 @@ header .header-p {
   flex-direction: column;
   justify-content: center;
   color: #ffffff;
-  background-color: #f76b1c;
+  background: linear-gradient(0.25turn, #cc5817, #fad961);
 }
 .card-container .card3 h3 {
   font-size: 2.5rem;
