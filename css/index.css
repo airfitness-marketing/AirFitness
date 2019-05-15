@@ -170,3 +170,31 @@ header .header-p {
   border-radius: 30px;
   box-shadow: 3px 3px 3px 3px lightgray;
 }
+.join {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #694cf2;
+  border-radius: 15px;
+  padding: 3rem 0;
+  background: linear-gradient(0.25turn, #694cf2, #889bfb);
+}
+.join .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  width: 85%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  box-shadow: 2px 2px 2px darkgray;
+}
+.join .form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.join .form-content #form {
+  margin: 1rem;
+}
