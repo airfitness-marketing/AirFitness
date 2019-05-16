@@ -1,23 +1,26 @@
 header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    // justify-content: space-between;
     margin: 2rem;
+    padding-bottom: 20px;
 
 
     .header {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding-bottom: 30px;
+
 
         h1 {
             display: flex;
             flex-direction: column;
-            font-size: 4rem;
+            font-size: 5rem;
             font-weight: 600;
 
             .fitness {
-                font-size: 2.5rem;
+                font-size: 3rem;
                 font-weight: 400;
             }
         }
@@ -25,11 +28,15 @@ header {
         i {
             font-size: 3rem;
         }
+
+        i:nth-child(2) {
+            padding-left: 20px;
+        }
     }
 
     .header-p {
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
 
         span {
             color: @royal-blue;
