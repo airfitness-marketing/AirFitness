@@ -133,8 +133,14 @@ html {
   font-size: 62.5%;
   font-family: sans-serif;
 }
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .container {
   padding: 0 5%;
+  flex: 1;
 }
 header {
   display: flex;
@@ -289,7 +295,7 @@ footer .footer-content .footer-section2 p {
 }
 .card-container .card3 {
   width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;
