@@ -164,6 +164,9 @@ header .header-p {
   text-align: center;
   font-size: 1.6rem;
 }
+header .header-p span {
+  color: #694cf2;
+}
 .top-nav {
   display: flex;
   justify-content: space-around;
@@ -196,7 +199,23 @@ footer {
   padding: 20px;
 }
 footer .footer-content {
-  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .footer-content .footer-section1 h2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+}
+footer .footer-content .footer-section1 h2 .fitness {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+footer .footer-content .footer-section2 p {
+  color: white;
 }
 .card-container {
   display: flex;
