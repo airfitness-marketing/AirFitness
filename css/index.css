@@ -243,6 +243,11 @@ footer .footer-content .footer-section2 p {
   align-items: center;
   padding: 50px 0 0 0;
 }
+@media (min-width: 1000px) {
+  .card-container {
+    flex-direction: row;
+  }
+}
 .card-container .card-content {
   display: flex;
   flex-direction: column;
@@ -269,6 +274,17 @@ footer .footer-content .footer-section2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 6rem;
+}
+@media (min-width: 1000px) {
+  .card-container .card1 {
+    flex-direction: column;
+    width: 30%;
+  }
+  .card-container .card1 p {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    padding: 0 0 0 6rem;
+  }
 }
 .card-container .card2 {
   width: 100%;

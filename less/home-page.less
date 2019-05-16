@@ -4,6 +4,10 @@
     align-items: center;
     padding: 50px 0 0 0;
 
+    @media @desktop {
+        flex-direction: row;
+    }
+
     .card-content {
         display: flex;
         flex-direction: column;
@@ -35,6 +39,17 @@
             font-size: 1.4rem;
             letter-spacing: 1px;
             padding: 0 0 0 6rem;
+        }
+
+        @media @desktop {
+            flex-direction: column;
+            width: 30%;
+
+            p {
+                font-size: 1.4rem;
+                letter-spacing: 1px;
+                padding: 0 0 0 6rem;
+            }
         }
     }
 
