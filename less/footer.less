@@ -4,16 +4,34 @@ footer {
     flex-direction: column;
     background: linear-gradient(@mako, @ghost);
     border-radius: 1rem 1rem 0 0;
-
     padding: 20px;
 
     .footer-content {
-        flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
-        footer-section1 {
-            // align-items: flex-start;
+        .footer-section1 {
+            h2 {
+                display: flex;
+                flex-direction: column;
+                font-size: 4rem;
+                font-weight: 600;
+                color: white;
+
+                .fitness {
+                    font-size: 2.5rem;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .footer-section2 {
+
+            p {
+                color: white;
+            }
         }
     }
-
 
 }
