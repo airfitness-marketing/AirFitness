@@ -126,11 +126,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
+  font-family: sans-serif;
 }
 .container {
-  padding: 5%;
+  padding: 0 5%;
 }
 header {
   display: flex;
@@ -179,65 +183,98 @@ header .header-p {
 }
 .home {
   font-size: 2rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   border: 1px solid white;
   border-radius: 30px;
-  box-shadow: 0px 1px 5px 1px lightgray;
+  box-shadow: 0px 1px 10px 1px lightgray;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#454654, #cccdd6);
+  border-radius: 1rem 1rem 0 0;
+  padding: 20px;
+}
+footer .footer-content {
+  flex-shrink: 0;
 }
 .card-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 0 20px 0;
+  padding: 30px 0 0 0;
+}
+.card-container .card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
 }
 .card-container .card1 {
   width: 100%;
+  margin-bottom: 30px;
   border-radius: 1rem;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   color: #ffffff;
   background: linear-gradient(0.25turn, #44398c, #6876fa);
 }
 .card-container .card1 img {
-  width: 20%;
-  height: auto;
+  padding: 10px 0 10px 20px;
 }
 .card-container .card1 h3 {
-  font-size: 2.5rem;
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+  padding: 0 0 20px 6rem;
 }
 .card-container .card1 p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  padding: 0 0 0 6rem;
 }
 .card-container .card2 {
   width: 100%;
+  margin-bottom: 30px;
   border-radius: 1rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   color: #ffffff;
   background: linear-gradient(0.25turn, #90e7e0, dodgerblue);
 }
+.card-container .card2 img {
+  padding: 10px 0;
+}
 .card-container .card2 h3 {
-  font-size: 2.5rem;
+  font-size: 4rem;
+  padding: 0 0 10px 3rem;
+  letter-spacing: 1.5px;
 }
 .card-container .card2 p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  padding: 0 0 0 3rem;
 }
 .card-container .card3 {
   width: 100%;
+  margin-bottom: 60px;
   border-radius: 1rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   color: #ffffff;
   background: linear-gradient(0.25turn, #cc5817, #fad961);
 }
+.card-container .card3 img {
+  padding: 10px 0 10px 20px;
+}
 .card-container .card3 h3 {
-  font-size: 2.5rem;
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+  padding: 0 0 20px 6rem;
 }
 .card-container .card3 p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  padding: 0 0 0 6rem;
 }
 .join {
   width: 90%;
