@@ -273,7 +273,7 @@ header .header-p {
   border: 2px solid #cccdd6;
 }
 .join .form-content .join-now {
-  width: 80%;
+  width: 85%;
   padding: 0.8rem;
   background: white;
   border: 2px solid #5e50bc;
@@ -291,7 +291,7 @@ header .header-p {
   justify-content: center;
 }
 .join .form-content .google {
-  width: 80%;
+  width: 85%;
   padding: 1rem;
   background: white;
   border: 1px solid lightgray;
