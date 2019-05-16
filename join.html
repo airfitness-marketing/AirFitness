@@ -26,10 +26,10 @@
     <div class="container join">
         <div class="form">
             <form action="#" class="form-content">
-                <input type="text" name="name" id="form" placeholder="Your Name">
-                <input type="text" name="email" id="form" placeholder="Email">
-                <input type="password" name="password" id="form" placeholder="Password">
-                <select name="profile" id="form">
+                <input type="text" name="name" id="form" placeholder="Your Name" required>
+                <input type="text" name="email" id="form" placeholder="Email" required>
+                <input type="password" name="password" id="form" placeholder="Password" required>
+                <select name="profile" id="form" class="dropdown">
                     <option value="profile" selected='selected'>Choose Your Profile</option>
                     <option value="instructor">Instructor</option>
                     <option value="client">Client</option>
@@ -40,7 +40,7 @@
                     <p>or</p>
                     <hr width="30px">
                 </div>
-                <button>Sign in with Google</button>
+                <button class="google"><img src="google.png" alt="google"> Sign in with Google</button>
             </form>
             <h2>Already a member? <a href="#">Log In</a></h2>
         </div>
