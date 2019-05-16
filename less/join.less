@@ -13,9 +13,10 @@
         align-items: center;
         background: white;
         width: 85%;
-        margin: 0 auto;
+        margin: 1rem auto;
         padding: 2rem 0;
-        box-shadow: 2px 2px 2px darkgray;
+        box-shadow: 1px 1px 3px rgb(20, 20, 20);
+        border-radius: 3px;
     }
 
     .form-content {
@@ -25,20 +26,62 @@
         align-items: center;
 
         #form {
-            margin: 1rem;
+            margin: 1rem 0;
             width: 30rem;
-            padding: 0.5rem;
+            padding: 0.8rem;
             border: 2px solid @ghost;
+
         }
 
         .join-now {
             width: 30rem;
-            padding: .5rem;
+            padding: .8rem;
             background: white;
             border: 2px solid @blue-violet;
             border-radius: 5px;
-            margin: 1.5rem;
+            margin: 1.5rem 0;
             font-weight: 600;
+            cursor: pointer;
+
+            &:hover {
+                background: darken(@white, 5%);
+            }
+        }
+
+        .google {
+            width: 30rem;
+            padding: 1rem;
+            background: white;
+            border: 1px solid lightgray;
+            margin: 1.5rem 0;
+            font-weight: 600;
+            color: @comet;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 20px;
+                padding-right: 5px;
+            }
+
+            &:hover {
+                background: darken(@white, 5%);
+            }
+        }
+    }
+
+    .member {
+        font-size: 1.8rem;
+        font-weight: 600;
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
