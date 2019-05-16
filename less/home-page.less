@@ -2,68 +2,92 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 0 20px 0;
+    padding: 30px 0 0 0;
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        padding: 20px 0;
+    }
 
 
     .card1 {
         width: 100%;
+        margin-bottom: 30px;
         border-radius: 1rem;
         display: flex;
-        flex-direction: row;
-        // flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         color: @white;
         background: linear-gradient(0.25turn, @gigas, @cornflower-blue);
 
         img {
-            width: 20%;
-            height: auto;
+            padding: 10px 0 10px 20px;
         }
 
         h3 {
-            font-size: 2.5rem;
+            font-size: 4rem;
+            letter-spacing: 1.5px;
+            padding: 0 0 20px 6rem;
         }
 
         p {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            padding: 0 0 0 6rem;
         }
     }
 
     .card2 {
         width: 100%;
+        margin-bottom: 30px;
         border-radius: 1rem;
         display: flex;
-        flex-direction: column;
-        // flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
         color: @white;
         background: linear-gradient(0.25turn, @riptide, dodgerblue);
 
+        img {
+            padding: 10px 0;
+        }
+
         h3 {
-            font-size: 2.5rem;
+            font-size: 4rem;
+            padding: 0 0 10px 3rem;
+            letter-spacing: 1.5px;
         }
 
         p {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            padding: 0 0 0 3rem;
         }
     }
 
     .card3 {
         width: 100%;
+        margin-bottom: 60px;
         border-radius: 1rem;
         display: flex;
-        flex-direction: column;
-        // flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         color: @white;
         background: linear-gradient(0.25turn, @orange-roughy, @energy-yellow);
 
+        img {
+            padding: 10px 0 10px 20px;
+        }
+
         h3 {
-            font-size: 2.5rem;
+            font-size: 4rem;
+            letter-spacing: 1.5px;
+            padding: 0 0 20px 6rem;
         }
 
         p {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            padding: 0 0 0 6rem;
         }
     }
 }
