@@ -165,18 +165,18 @@ header .header i:nth-child(2) {
   padding-left: 20px;
 }
 header .header-p {
-  text-align: center;
+  text-align: left;
   font-size: 1.8rem;
 }
 header .header-p span {
   color: #694cf2;
 }
-.top-nav {
+nav.top-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.top-nav .welcome {
+nav.top-nav .welcome {
   font-size: 3rem;
   margin: 2rem;
   padding: 1rem;
@@ -184,16 +184,21 @@ header .header-p span {
   border-radius: 30px;
   box-shadow: 3px 3px 3px 3px lightgray;
 }
-.top-nav a {
+nav.top-nav a {
   text-decoration: none;
   color: black;
+}
+nav.top-nav a:hover {
+  color: white;
+  background: linear-gradient(0.25turn, #17ead9, #6876fa);
+  border-radius: 30px;
 }
 .home {
   font-size: 2rem;
   padding: 1.5rem 1rem;
   border: 1px solid white;
   border-radius: 30px;
-  box-shadow: 0px 1px 10px 1px lightgray;
+  box-shadow: 0px 1px 20px 3px lightgray;
 }
 footer {
   display: flex;
@@ -227,7 +232,7 @@ footer .footer-content .footer-section2 p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 0 0 0;
+  padding: 50px 0 0 0;
 }
 .card-container .card-content {
   display: flex;
@@ -281,7 +286,7 @@ footer .footer-content .footer-section2 p {
 }
 .card-container .card3 {
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;

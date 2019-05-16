@@ -35,7 +35,7 @@ header {
     }
 
     .header-p {
-        text-align: center;
+        text-align: left;
         font-size: 1.8rem;
 
         span {
@@ -46,10 +46,11 @@ header {
 
 }
 
-.top-nav {
+nav.top-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 
     .welcome {
         font-size: 3rem;
@@ -64,6 +65,13 @@ header {
         text-decoration: none;
         color: black;
     }
+
+    a:hover {
+        color: white;
+        background: linear-gradient(0.25turn, @bright-turq, @cornflower-blue);
+        border-radius: 30px;
+    }
+
 }
 
 .home {
@@ -72,6 +80,5 @@ header {
     padding: 1.5rem 1rem;
     border: 1px solid white;
     border-radius: 30px;
-    box-shadow: 0px 1px 10px 1px lightgray;
-
+    box-shadow: 0px 1px 20px 3px lightgray;
 }
