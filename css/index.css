@@ -140,20 +140,22 @@ header {
   display: flex;
   flex-direction: column;
   margin: 2rem;
+  padding-bottom: 20px;
 }
 header .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 30px;
 }
 header .header h1 {
   display: flex;
   flex-direction: column;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
 }
 header .header h1 .fitness {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 header .header i {
@@ -164,7 +166,7 @@ header .header i:nth-child(2) {
 }
 header .header-p {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 header .header-p span {
   color: #694cf2;
