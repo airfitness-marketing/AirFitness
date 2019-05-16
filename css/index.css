@@ -254,9 +254,10 @@ header .header-p {
   align-items: center;
   background: white;
   width: 85%;
-  margin: 0 auto;
+  margin: 1rem auto;
   padding: 2rem 0;
-  box-shadow: 2px 2px 2px darkgray;
+  box-shadow: 1px 1px 3px #141414;
+  border-radius: 3px;
 }
 .join .form-content {
   display: flex;
@@ -265,17 +266,51 @@ header .header-p {
   align-items: center;
 }
 .join .form-content #form {
-  margin: 1rem;
+  margin: 1rem 0;
   width: 30rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
   border: 2px solid #cccdd6;
 }
 .join .form-content .join-now {
   width: 30rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
   background: white;
   border: 2px solid #5e50bc;
   border-radius: 5px;
-  margin: 1.5rem;
+  margin: 1.5rem 0;
   font-weight: 600;
+  cursor: pointer;
+}
+.join .form-content .join-now:hover {
+  background: #f2f2f2;
+}
+.join .form-content .google {
+  width: 30rem;
+  padding: 1rem;
+  background: white;
+  border: 1px solid lightgray;
+  margin: 1.5rem 0;
+  font-weight: 600;
+  color: #606276;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join .form-content .google img {
+  width: 20px;
+  padding-right: 5px;
+}
+.join .form-content .google:hover {
+  background: #f2f2f2;
+}
+.join .member {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.join .member a {
+  text-decoration: none;
+}
+.join .member a:hover {
+  text-decoration: underline;
 }
