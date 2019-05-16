@@ -178,11 +178,13 @@ nav.top-nav {
 }
 nav.top-nav .welcome {
   font-size: 3rem;
+  width: 80%;
   margin: 2rem;
   padding: 1rem;
   border: 1px solid white;
   border-radius: 30px;
-  box-shadow: 3px 3px 3px 3px lightgray;
+  box-shadow: 0px 1px 20px 3px #cccdd6;
+  text-align: center;
 }
 nav.top-nav a {
   text-decoration: none;
@@ -190,6 +192,7 @@ nav.top-nav a {
 }
 nav.top-nav a:hover {
   color: white;
+  padding: 5px 12px;
   background: linear-gradient(0.25turn, #17ead9, #6876fa);
   border-radius: 30px;
 }
@@ -337,7 +340,7 @@ footer .footer-content .footer-section2 p {
   margin: 1rem 0;
   width: 80%;
   padding: 0.8rem;
-  border: 2px solid #cccdd6;
+  border: 2px solid #eff1f9;
 }
 .join .form-content .join-now {
   width: 85%;
