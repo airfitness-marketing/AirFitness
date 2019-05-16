@@ -164,6 +164,9 @@ header .header-p {
   text-align: center;
   font-size: 1.6rem;
 }
+header .header-p span {
+  color: #694cf2;
+}
 .top-nav {
   display: flex;
   justify-content: space-around;
