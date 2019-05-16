@@ -207,7 +207,7 @@ footer .footer-content {
 .card-container .card-content {
   display: flex;
   flex-direction: column;
-  padding: 20px 20px;
+  padding: 20px 0;
 }
 .card-container .card1 {
   width: 100%;
@@ -219,13 +219,17 @@ footer .footer-content {
   background: linear-gradient(0.25turn, #44398c, #6876fa);
 }
 .card-container .card1 img {
-  padding: 10px 0;
+  padding: 10px 0 10px 20px;
 }
 .card-container .card1 h3 {
-  font-size: 3rem;
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+  padding: 0 0 20px 6rem;
 }
 .card-container .card1 p {
   font-size: 1.4rem;
+  letter-spacing: 1px;
+  padding: 0 0 0 6rem;
 }
 .card-container .card2 {
   width: 100%;
@@ -241,11 +245,14 @@ footer .footer-content {
   padding: 10px 0;
 }
 .card-container .card2 h3 {
-  font-size: 3rem;
-  padding: 0 0 10px 0;
+  font-size: 4rem;
+  padding: 0 0 10px 3rem;
+  letter-spacing: 1.5px;
 }
 .card-container .card2 p {
   font-size: 1.4rem;
+  letter-spacing: 1px;
+  padding: 0 0 0 3rem;
 }
 .card-container .card3 {
   width: 100%;
@@ -257,13 +264,17 @@ footer .footer-content {
   background: linear-gradient(0.25turn, #cc5817, #fad961);
 }
 .card-container .card3 img {
-  padding: 10px 0;
+  padding: 10px 0 10px 20px;
 }
 .card-container .card3 h3 {
-  font-size: 3rem;
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+  padding: 0 0 20px 6rem;
 }
 .card-container .card3 p {
   font-size: 1.4rem;
+  letter-spacing: 1px;
+  padding: 0 0 0 6rem;
 }
 .join {
   width: 90%;
