@@ -139,12 +139,11 @@ html {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   margin: 2rem;
 }
 header .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 header .header h1 {
@@ -159,6 +158,9 @@ header .header h1 .fitness {
 }
 header .header i {
   font-size: 3rem;
+}
+header .header i:nth-child(2) {
+  padding-left: 20px;
 }
 header .header-p {
   text-align: center;
