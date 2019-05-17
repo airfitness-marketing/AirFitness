@@ -457,7 +457,7 @@ footer .footer-content .footer-section2 p {
   padding: 3rem 0;
   background: linear-gradient(0.25turn, #694cf2, #889bfb);
 }
-.join .form {
+.join .form-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -476,14 +476,14 @@ footer .footer-content .footer-section2 p {
   align-items: center;
   width: 100%;
 }
-.join .form-content #form {
+.join .form-content .form {
   margin: 1rem 0;
   width: 80%;
   padding: 0.8rem;
   border: 2px solid #eff1f9;
 }
 .join .form-content .join-now {
-  width: 85%;
+  width: 80%;
   padding: 0.8rem;
   background: white;
   border: 2px solid #5e50bc;
@@ -499,7 +499,7 @@ footer .footer-content .footer-section2 p {
   display: flex;
 }
 .join .form-content .google {
-  width: 85%;
+  width: 80%;
   padding: 1rem;
   background: white;
   border: 1px solid lightgray;
