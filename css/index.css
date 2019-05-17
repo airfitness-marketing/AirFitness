@@ -221,9 +221,15 @@ nav.top-nav a {
   text-decoration: none;
   color: black;
 }
+@media (min-width: 1000px) {
+  nav.top-nav a {
+    font-size: 3rem;
+  }
+}
 nav.top-nav a:hover {
   color: white;
-  padding: 5px 12px;
+  padding: 0 20px;
+  transition-duration: 0.4s;
   background: linear-gradient(0.25turn, #17ead9, #6876fa);
   border-radius: 30px;
 }

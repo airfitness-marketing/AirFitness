@@ -86,11 +86,16 @@ nav.top-nav {
     a {
         text-decoration: none;
         color: black;
+
+        @media @desktop {
+            font-size: 3rem;
+        }
     }
 
     a:hover {
         color: white;
-        padding: 5px 12px;
+        padding: 0 20px;
+        transition-duration: .4s;
         background: linear-gradient(0.25turn, @bright-turq, @cornflower-blue);
         border-radius: 30px;
     }
