@@ -21,7 +21,7 @@ function check() {
 
     // entered data from the login-form
     const name = document.getElementById('userName').value;
-    const email = document.getElementById('userEmail').value;
+    const pw = document.getElementById('userPw').value;
 
     // check if stored data from register-form is equal to data from login form
     if (userName.value !== storedName || userPw.value !== storedPw) {
