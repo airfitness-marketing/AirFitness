@@ -263,6 +263,14 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #44398c, #6876fa);
 }
+@media (min-width: 1000px) {
+  .card-container .card1 {
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 0;
+    background: linear-gradient(#44398c, #6876fa);
+  }
+}
 .card-container .card1 img {
   padding: 10px 0 10px 20px;
 }
@@ -276,22 +284,23 @@ footer .footer-content .footer-section2 p {
   letter-spacing: 1.5px;
   padding: 0 0 20px 6rem;
 }
+@media (min-width: 1000px) {
+  .card-container .card1 h3 {
+    text-align: center;
+    padding: 10px 0 20px 0;
+    font-size: 5rem;
+  }
+}
 .card-container .card1 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 6rem;
 }
 @media (min-width: 1000px) {
-  .card-container .card1 {
-    flex-direction: column;
-    width: 30%;
-    margin-bottom: 0;
-    background: linear-gradient(#44398c, #6876fa);
-  }
   .card-container .card1 p {
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-    padding: 0 0 0 6rem;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.8rem;
   }
 }
 .card-container .card2 {
@@ -303,6 +312,14 @@ footer .footer-content .footer-section2 p {
   justify-content: space-between;
   color: #ffffff;
   background: linear-gradient(0.25turn, #90e7e0, dodgerblue);
+}
+@media (min-width: 1000px) {
+  .card-container .card2 {
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 0;
+    background: linear-gradient(#90e7e0, dodgerblue);
+  }
 }
 .card-container .card2 img {
   padding: 10px 20px 10px 0;
@@ -317,22 +334,23 @@ footer .footer-content .footer-section2 p {
   padding: 0 0 20px 3rem;
   letter-spacing: 1.5px;
 }
+@media (min-width: 1000px) {
+  .card-container .card2 h3 {
+    text-align: center;
+    padding: 10px 0 20px 0;
+    font-size: 5rem;
+  }
+}
 .card-container .card2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 3rem;
 }
 @media (min-width: 1000px) {
-  .card-container .card2 {
-    flex-direction: column;
-    width: 30%;
-    margin-bottom: 0;
-    background: linear-gradient(#90e7e0, dodgerblue);
-  }
   .card-container .card2 p {
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-    padding: 0 0 0 6rem;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.8rem;
   }
 }
 .card-container .card3 {
@@ -343,6 +361,14 @@ footer .footer-content .footer-section2 p {
   justify-content: space-between;
   color: #ffffff;
   background: linear-gradient(0.25turn, #cc5817, #fad961);
+}
+@media (min-width: 1000px) {
+  .card-container .card3 {
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 0;
+    background: linear-gradient(#cc5817, #fad961);
+  }
 }
 .card-container .card3 img {
   padding: 10px 0 10px 20px;
@@ -357,22 +383,23 @@ footer .footer-content .footer-section2 p {
   letter-spacing: 1.5px;
   padding: 0 0 20px 6rem;
 }
+@media (min-width: 1000px) {
+  .card-container .card3 h3 {
+    text-align: center;
+    padding: 10px 0 20px 0;
+    font-size: 5rem;
+  }
+}
 .card-container .card3 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 6rem;
 }
 @media (min-width: 1000px) {
-  .card-container .card3 {
-    flex-direction: column;
-    width: 30%;
-    margin-bottom: 0;
-    background: linear-gradient(#cc5817, #fad961);
-  }
   .card-container .card3 p {
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-    padding: 0 0 0 6rem;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.8rem;
   }
 }
 .join {
