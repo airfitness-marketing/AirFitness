@@ -6,11 +6,7 @@
     padding: 3rem 0;
     background: linear-gradient(0.25turn, @royal-blue, @malibu);
 
-    @media @phone {
-        max-width: 800px;
-    }
-
-    .form {
+    .form-container {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -30,7 +26,7 @@
         align-items: center;
         width: 100%;
 
-        #form {
+        .form {
             margin: 1rem 0;
             width: 80%;
             padding: 0.8rem;
@@ -38,7 +34,7 @@
         }
 
         .join-now {
-            width: 85%;
+            width: 80%;
             padding: .8rem;
             background: white;
             border: 2px solid @blue-violet;
@@ -58,7 +54,7 @@
 
 
         .google {
-            width: 85%;
+            width: 80%;
             padding: 1rem;
             background: white;
             border: 1px solid lightgray;
