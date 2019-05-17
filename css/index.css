@@ -535,7 +535,7 @@ footer .footer-content .footer-section2 p {
 .p-pass-head-text h2 {
   font-size: 3rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 1.1px;
   padding-left: 6%;
 }
 .p-pass-head-text a {
@@ -544,4 +544,21 @@ footer .footer-content .footer-section2 p {
 }
 .p-pass-head-text i {
   font-size: 4rem;
+}
+.p-pass-create-form {
+  padding: 20px 0;
+}
+.p-pass-create-form .ppc-form-container .ppc-form-content label {
+  font-size: 1.5rem;
+}
+.p-pass-create-form .ppc-form-container .ppc-form-content input {
+  border: 2px solid grey;
+}
+.p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div {
+  display: flex;
+  flex-direction: column;
+}
+.p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div-alt {
+  display: flex;
+  flex-direction: row;
 }
