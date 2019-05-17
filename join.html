@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <title>Air Fitness</title>
+    <script src="assets/join.js" async></script>
 </head>
 
 <body>
@@ -24,17 +25,17 @@
     </nav>
 
     <div class="container join">
-        <div class="form">
+        <div class="form-container">
             <form action="#" class="form-content">
-                <input type="text" name="name" id="form" placeholder="Your Name" required>
-                <input type="text" name="email" id="form" placeholder="Email" required>
-                <input type="password" name="password" id="form" placeholder="Password" required>
-                <select name="profile" id="form" class="dropdown">
+                <input type="text" name="name" id="userName" class="form" placeholder="Your Name" required>
+                <input type="text" name="email" id="userEmail" class="form" placeholder="Email" required>
+                <input type="password" name="password" id="userPw" class="form" placeholder="Password" required>
+                <select name="profile" id="userProfile" class=" form dropdown">
                     <option value="profile" selected='selected'>Choose Your Profile</option>
                     <option value="instructor">Instructor</option>
                     <option value="client">Client</option>
                 </select>
-                <button class="join-now">JOIN NOW</button>
+                <button class="join-now" onclick="store()">JOIN NOW</button>
                 <div class="or">
                     <hr width="30px">
                     <p>or</p>
