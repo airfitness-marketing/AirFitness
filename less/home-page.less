@@ -6,6 +6,7 @@
 
     @media @desktop {
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .card-content {
@@ -27,6 +28,10 @@
 
         img {
             padding: 10px 0 10px 20px;
+
+            @media @desktop {
+                padding: 20px 5%;
+            }
         }
 
         h3 {
@@ -44,6 +49,9 @@
         @media @desktop {
             flex-direction: column;
             width: 30%;
+            margin-bottom: 0;
+            background: linear-gradient(@gigas, @cornflower-blue);
+
 
             p {
                 font-size: 1.4rem;
@@ -65,6 +73,10 @@
 
         img {
             padding: 10px 20px 10px 0;
+
+            @media @desktop {
+                padding: 20px 5%;
+            }
         }
 
         h3 {
@@ -77,6 +89,20 @@
             font-size: 1.4rem;
             letter-spacing: 1px;
             padding: 0 0 0 3rem;
+        }
+
+        @media @desktop {
+            flex-direction: column;
+            width: 30%;
+            margin-bottom: 0;
+            background: linear-gradient(@riptide, dodgerblue);
+
+
+            p {
+                font-size: 1.4rem;
+                letter-spacing: 1px;
+                padding: 0 0 0 6rem;
+            }
         }
     }
 
@@ -91,6 +117,10 @@
 
         img {
             padding: 10px 0 10px 20px;
+
+            @media @desktop {
+                padding: 20px 5%;
+            }
         }
 
         h3 {
@@ -103,6 +133,19 @@
             font-size: 1.4rem;
             letter-spacing: 1px;
             padding: 0 0 0 6rem;
+        }
+
+        @media @desktop {
+            flex-direction: column;
+            width: 30%;
+            margin-bottom: 0;
+            background: linear-gradient(@orange-roughy, @energy-yellow);
+
+            p {
+                font-size: 1.4rem;
+                letter-spacing: 1px;
+                padding: 0 0 0 6rem;
+            }
         }
     }
 }

@@ -246,6 +246,7 @@ footer .footer-content .footer-section2 p {
 @media (min-width: 1000px) {
   .card-container {
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 .card-container .card-content {
@@ -265,6 +266,11 @@ footer .footer-content .footer-section2 p {
 .card-container .card1 img {
   padding: 10px 0 10px 20px;
 }
+@media (min-width: 1000px) {
+  .card-container .card1 img {
+    padding: 20px 5%;
+  }
+}
 .card-container .card1 h3 {
   font-size: 4rem;
   letter-spacing: 1.5px;
@@ -279,6 +285,8 @@ footer .footer-content .footer-section2 p {
   .card-container .card1 {
     flex-direction: column;
     width: 30%;
+    margin-bottom: 0;
+    background: linear-gradient(#44398c, #6876fa);
   }
   .card-container .card1 p {
     font-size: 1.4rem;
@@ -299,6 +307,11 @@ footer .footer-content .footer-section2 p {
 .card-container .card2 img {
   padding: 10px 20px 10px 0;
 }
+@media (min-width: 1000px) {
+  .card-container .card2 img {
+    padding: 20px 5%;
+  }
+}
 .card-container .card2 h3 {
   font-size: 4rem;
   padding: 0 0 20px 3rem;
@@ -308,6 +321,19 @@ footer .footer-content .footer-section2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 3rem;
+}
+@media (min-width: 1000px) {
+  .card-container .card2 {
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 0;
+    background: linear-gradient(#90e7e0, dodgerblue);
+  }
+  .card-container .card2 p {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    padding: 0 0 0 6rem;
+  }
 }
 .card-container .card3 {
   width: 100%;
@@ -321,6 +347,11 @@ footer .footer-content .footer-section2 p {
 .card-container .card3 img {
   padding: 10px 0 10px 20px;
 }
+@media (min-width: 1000px) {
+  .card-container .card3 img {
+    padding: 20px 5%;
+  }
+}
 .card-container .card3 h3 {
   font-size: 4rem;
   letter-spacing: 1.5px;
@@ -330,6 +361,19 @@ footer .footer-content .footer-section2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 6rem;
+}
+@media (min-width: 1000px) {
+  .card-container .card3 {
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 0;
+    background: linear-gradient(#cc5817, #fad961);
+  }
+  .card-container .card3 p {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    padding: 0 0 0 6rem;
+  }
 }
 .join {
   width: 90%;
