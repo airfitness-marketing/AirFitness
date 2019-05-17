@@ -526,3 +526,22 @@ footer .footer-content .footer-section2 p {
 .join .member a:hover {
   text-decoration: underline;
 }
+.p-pass-head-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.p-pass-head-text h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-left: 6%;
+}
+.p-pass-head-text a {
+  color: #454654;
+  padding-left: 2%;
+}
+.p-pass-head-text i {
+  font-size: 4rem;
+}
