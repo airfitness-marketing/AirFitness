@@ -609,3 +609,15 @@ footer .footer-content .footer-section2 p {
   border-radius: 0.5rem;
   background: linear-gradient(#5e50bc, #889bfb);
 }
+@media (min-width: 800px) and (max-width: 999px) {
+  .p-pass-create-form .ppc-form-container button {
+    margin: 60px auto 0 auto;
+    width: 60%;
+  }
+}
+@media (min-width: 1000px) {
+  .p-pass-create-form .ppc-form-container button {
+    margin: 60px auto 0 auto;
+    width: 60%;
+  }
+}
