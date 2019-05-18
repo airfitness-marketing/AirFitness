@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Air Fitness</title>
+</head>
+
+<body class="site">
+
+    <div class="container">
+
+        <header>
+            <div class="header">
+                <h1>AIR<span class="fitness">fitness</span></h1>
+                <div class="head-logo-imgs">
+                    <i class="far fa-user"></i>
+                </div>
+            </div>
+        </header>
+
+        <div class="p-pass-head-text">
+            <!-- link to instructor home page when instructor home page is built -->
+            <a href="index.html"><i class="fas fa-home"></i></a>
+            <h2>Create a Punch Pass</h2>
+        </div>
+
+        <div class="p-pass-create-form">
+            <div class="ppc-form-container">
+                <form action="#" class="ppc-form-content">
+                    <div class="ppc-form-div">
+                        <label for="instructorName">Name of Instructor</label>
+                        <input type="text" name="instruc-name" id="ppc-instruc-name" required>
+                    </div>
+                    <div class="ppc-form-div">
+                        <label for="className">Name of Class</label>
+                        <input type="text" name="class-name" id="ppc-class-name" required>
+                    </div>
+
+                    <div class="ppc-form-div-alt">
+                        <div class="ppc-form-div-2">
+                            <label for="ppc-#classes">#of Classes</label>
+                            <input type="text" name="#classes" id="ppc-#classes" required>
+                        </div>
+                        <div class="ppc-form-div-2">
+                            <label for="ppc-cost">Cost</label>
+                            <input type="text" name="cost" id="ppc-cost" required>
+                        </div>
+                    </div>
+                    <div class="ppc-form-div">
+                        <label for="ppc-description" class="ppc-form-desc">Description</label>
+                        <textarea name="ppc-text-area" id="ppc-text-area" cols="30" rows="7" required></textarea>
+                    </div>
+                    <div class="ppc-form-div">
+                        <button type="submit">Create Punch Pass</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
