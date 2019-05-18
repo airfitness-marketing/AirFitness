@@ -533,6 +533,7 @@ footer .footer-content .footer-section2 p {
   align-items: center;
 }
 .p-pass-head-text h2 {
+  color: #454654;
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: 1.1px;
@@ -550,15 +551,44 @@ footer .footer-content .footer-section2 p {
 }
 .p-pass-create-form .ppc-form-container .ppc-form-content label {
   font-size: 1.5rem;
+  padding: 10px 0 5px 3px;
+  color: #606276;
 }
 .p-pass-create-form .ppc-form-container .ppc-form-content input {
-  border: 2px solid grey;
+  font-size: 1.8rem;
+  border: 2px solid #8f91a2;
+  border-radius: 0.5rem;
+  padding: 10px 0;
+  box-shadow: inset 0px 0.5px 3px #8f91a2;
 }
 .p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div {
   display: flex;
   flex-direction: column;
 }
+.p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div .ppc-form-desc {
+  padding-top: 15px;
+}
 .p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div-alt {
   display: flex;
   flex-direction: row;
+}
+.p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div-alt .ppc-form-div-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div-alt .ppc-form-div-2:nth-child(1) {
+  padding-right: 1%;
+}
+.p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div-alt .ppc-form-div-2:nth-child(2) {
+  padding-left: 1%;
+}
+.p-pass-create-form .ppc-form-container textarea {
+  border: 2px solid #8f91a2;
+  border-radius: 0.5rem;
+  box-shadow: inset 0px 0.5px 3px #8f91a2;
+}
+.p-pass-create-form .ppc-form-container button {
+  border: 2px solid grey;
+  border-radius: 0.5rem;
 }
