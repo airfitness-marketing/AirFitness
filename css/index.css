@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
 .width-100 {
   width: 100%;
 }
@@ -134,7 +141,7 @@ table {
 }
 html {
   font-size: 62.5%;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .site {
   display: flex;
@@ -150,6 +157,7 @@ header {
   flex-direction: column;
   margin: 2rem;
   padding-bottom: 20px;
+  font-family: sans-serif;
 }
 header .header {
   display: flex;
@@ -222,7 +230,7 @@ nav.top-nav .welcome {
 }
 nav.top-nav a {
   text-decoration: none;
-  color: black;
+  color: #454654;
 }
 @media (min-width: 1000px) {
   nav.top-nav a {
@@ -248,6 +256,7 @@ footer {
   background: linear-gradient(#454654, #cccdd6);
   border-radius: 3rem 3rem 0 0;
   padding: 10px 20px;
+  font-family: sans-serif;
 }
 footer .footer-content {
   display: flex;
@@ -642,14 +651,18 @@ footer .footer-content .footer-section2 p {
 }
 .mkt-header-p {
   font-size: 1.8rem;
+  color: #454654;
+  text-transform: ;
 }
 .abov-carous-head {
   margin: 20px 3%;
   padding: 10px 0;
   text-align: center;
   font-size: 5rem;
-  color: #000;
+  color: #454654;
   letter-spacing: 1px;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 5px #cccdd6;
 }
 .carousel {
   width: 100%;
@@ -657,11 +670,12 @@ footer .footer-content .footer-section2 p {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 800px;
+  height: 1000px;
   position: relative;
   overflow: hidden;
   margin: 16px auto 0 auto;
   border: 2px solid #cccdd6;
+  border-radius: 1rem;
 }
 @media (min-width: 1000px) {
   .carousel {
@@ -674,7 +688,9 @@ footer .footer-content .footer-section2 p {
   justify-content: center;
   align-items: none;
   flex-direction: row;
-  color: #6876fa;
+  color: #454654;
+  background-color: #fefefe;
+  border: 2px solid #454654;
   font-size: 40px;
   border-radius: 50%;
   position: absolute;
@@ -684,9 +700,9 @@ footer .footer-content .footer-section2 p {
 }
 .carousel .left-button:hover,
 .carousel .right-button:hover {
-  color: #889bfb;
-  background-color: #606276;
-  border: 2px solid #889bfb;
+  color: #fefefe;
+  background-color: #454654;
+  border: 2px solid #fefefe;
 }
 .carousel .left-button {
   top: 50%;
