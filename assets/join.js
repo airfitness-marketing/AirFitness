@@ -1,13 +1,13 @@
 class Form {
     constructor(element) {
-        this.element = element;
-        this.name = element.getElementById('userName');
-        this.email = element.getElementById('userEmail');
-        this.pw = element.getElementById('userPw');
-        this.profile = element.getElementById('userProfile');
+        this.form = element;
+        this.name = element.querySelector('#userName');
+        this.email = element.querySelector('#userEmail');
+        this.pw = element.querySelector('#userPw');
+        this.profile = element.querySelector('#userProfile');
         this.joinButton = element.querySelector('.join-now');
         this.loginButton = element.querySelector('.log-in');
-        this.joinButton.addEventListener('click', () => this.store());
+        // this.joinButton.addEventListener('click', () => this.store());
         this.loginButton.addEventListener('click', () => this.check());
     }
 
@@ -27,11 +27,11 @@ class Form {
         const storedPw = localStorage.getItem('pw');
 
         // entered data from the login-form
-        const name = document.getElementById('userName').value;
-        const pw = document.getElementById('userPw').value;
+        this.name = document.querySelector('#userName');
+        this.pw = document.querySelector('#userPw');
 
         // check if stored data from register-form is equal to data from login form
-        if (userName.value !== storedName || userPw.value !== storedPw) {
+        if (this.name.value !== storedName || this.userPw.value !== storedPw) {
             alert('ERROR');
         } else {
             alert('You are loged in.');
@@ -41,4 +41,4 @@ class Form {
 
 
 
-let forms = document.querySelector('.form-content').forEach(form => new Form(form));
+let forms = document.querySelectorAll('.form-content').forEach(form => new Form(form));
