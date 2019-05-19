@@ -657,11 +657,11 @@ footer .footer-content .footer-section2 p {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 500px;
+  height: 800px;
   position: relative;
   overflow: hidden;
   margin: 16px auto 0 auto;
-  width: 9999px;
+  border: 2px solid #cccdd6;
 }
 @media (min-width: 1000px) {
   .carousel {
@@ -700,5 +700,7 @@ footer .footer-content .footer-section2 p {
 }
 .carousel img {
   width: 100%;
+  max-height: 100%;
+  height: auto;
   display: none;
 }

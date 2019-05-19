@@ -19,18 +19,20 @@
 .carousel {
     .width-100();
     .flex(center, center);
-    height: 500px;
+    height: 800px;
     position: relative;
     overflow: hidden;
     margin: 16px auto 0 auto;
-    width: 9999px;
+    border: 2px solid @ghost;
+    // width: 9999px;
 
     @media @desktop {
         width: 1000px;
     }
 
 
-    .left-button, .right-button {
+    .left-button,
+    .right-button {
         .flex(center);
         color: @cornflower-blue;
         font-size: 40px;
@@ -52,7 +54,7 @@
         left: 25px;
         transform: translate(0, -50%);
     }
-    
+
     .right-button {
         top: 50%;
         right: 25px;
@@ -60,7 +62,9 @@
     }
 
     img {
-    .width-100();
-    display: none;
-  }
+        .width-100();
+        max-height: 100%;
+        height: auto;
+        display: none;
+    }
 }
