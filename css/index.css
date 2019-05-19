@@ -655,14 +655,19 @@ footer .footer-content .footer-section2 p {
   text-transform: ;
 }
 .abov-carous-head {
-  margin: 20px 3%;
-  padding: 10px 0;
+  margin: 50px 1.5% 30px 1.5%;
+  padding: 40px 0;
   text-align: center;
   font-size: 5rem;
   color: #454654;
   letter-spacing: 1px;
+  border: 2px solid #cccdd6;
   border-radius: 1rem;
-  box-shadow: 0px 0px 5px 5px #cccdd6;
+  box-shadow: 0px 0px 5px 1px #cccdd6;
+}
+.abov-carous-head p {
+  font-size: 2rem;
+  margin: 20px 0 0 0;
 }
 .carousel {
   width: 100%;
@@ -676,6 +681,7 @@ footer .footer-content .footer-section2 p {
   margin: 16px auto 0 auto;
   border: 2px solid #cccdd6;
   border-radius: 1rem;
+  box-shadow: 0px 0px 5px 1px #cccdd6;
 }
 @media (min-width: 1000px) {
   .carousel {
