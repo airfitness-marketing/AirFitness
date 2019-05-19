@@ -4,13 +4,13 @@ header {
     // justify-content: space-between;
     margin: 2rem;
     padding-bottom: 20px;
+    font-family: sans-serif;
 
     .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-bottom: 30px;
-
 
         h1 {
             display: flex;
@@ -61,14 +61,16 @@ header {
             color: @royal-blue;
         }
     }
-
-
 }
 
 nav.top-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    //   @media @vsmall {
+    //     font-size: 0.9rem;
+    //   }
 
     .welcome {
         font-size: 3rem;
@@ -83,7 +85,7 @@ nav.top-nav {
 
     a {
         text-decoration: none;
-        color: black;
+        color: @mako;
 
         @media @desktop {
             font-size: 2.5rem;
@@ -96,7 +98,6 @@ nav.top-nav {
         background: linear-gradient(0.25turn, @bright-turq, @cornflower-blue);
         border-radius: 30px;
     }
-
 }
 
 .home {
