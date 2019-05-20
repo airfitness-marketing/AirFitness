@@ -740,3 +740,28 @@ footer .footer-content .footer-section2 p {
   height: auto;
   display: none;
 }
+.about {
+  margin: 4rem auto;
+}
+.about .cobrettie {
+  display: flex;
+  margin: 2rem auto;
+}
+.about .ray {
+  display: flex;
+  margin: 2rem auto;
+}
+.about .about-para {
+  width: 47%;
+}
+.about .about-para h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.about .about-para p {
+  font-size: 1.6rem;
+}
+.about .about-images {
+  width: 47%;
+}
