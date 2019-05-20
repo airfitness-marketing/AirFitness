@@ -483,6 +483,18 @@ footer .footer-content .footer-section2 p {
   padding: 3rem 0;
   background: linear-gradient(0.25turn, #694cf2, #889bfb);
 }
+@media (min-width: 800px) and (max-width: 999px) {
+  .join {
+    max-width: 800px;
+    width: 80%;
+  }
+}
+@media (min-width: 1000px) {
+  .join {
+    max-width: 1000px;
+    width: 50%;
+  }
+}
 .join .form-container {
   display: flex;
   flex-direction: column;
