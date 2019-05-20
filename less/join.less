@@ -1,92 +1,93 @@
 .join {
-    width: 90%;
-    margin: 0 auto 80px;
-    border: 1px solid @royal-blue;
-    border-radius: 15px;
-    padding: 3rem 0;
-    background: linear-gradient(0.25turn, @royal-blue, @malibu);
+  width: 90%;
+  margin: 0 auto 80px;
+  border: 1px solid @royal-blue;
+  border-radius: 15px;
+  padding: 3rem 0;
+  background: linear-gradient(0.25turn, @royal-blue, @malibu);
 
-    .form-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        background: white;
-        width: 85%;
-        margin: 1rem auto;
-        padding: 2rem 0;
-        box-shadow: 1px 1px 3px rgb(20, 20, 20);
-        border-radius: 3px;
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    width: 85%;
+    margin: 1rem auto;
+    padding: 2rem 0;
+    box-shadow: 1px 1px 3px rgb(20, 20, 20);
+    border-radius: 3px;
+  }
+
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    .form {
+      margin: 1rem 0;
+      width: 80%;
+      padding: 0.8rem;
+      border: 2px solid @white-lilac;
     }
 
-    .form-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
+    .join-now,
+    .log-in {
+      width: 80%;
+      padding: .8rem;
+      background: white;
+      border: 2px solid @blue-violet;
+      border-radius: 5px;
+      margin: 1.5rem 0;
+      font-weight: 600;
+      cursor: pointer;
 
-        .form {
-            margin: 1rem 0;
-            width: 80%;
-            padding: 0.8rem;
-            border: 2px solid @white-lilac;
-        }
-
-        .join-now {
-            width: 80%;
-            padding: .8rem;
-            background: white;
-            border: 2px solid @blue-violet;
-            border-radius: 5px;
-            margin: 1.5rem 0;
-            font-weight: 600;
-            cursor: pointer;
-
-            &:hover {
-                background: darken(@white, 5%);
-            }
-        }
-
-        .or {
-            display: flex;
-        }
-
-
-        .google {
-            width: 80%;
-            padding: 1rem;
-            background: white;
-            border: 1px solid lightgray;
-            margin: 1.5rem 0;
-            font-weight: 600;
-            color: @comet;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            img {
-                width: 20px;
-                padding-right: 5px;
-            }
-
-            &:hover {
-                background: darken(@white, 5%);
-            }
-        }
+      &:hover {
+        background: darken(@white, 5%);
+      }
     }
 
-    .member {
-        font-size: 1.8rem;
-        font-weight: 600;
-
-        a {
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+    .or {
+      display: flex;
     }
+
+
+    .google {
+      width: 80%;
+      padding: 1rem;
+      background: white;
+      border: 1px solid lightgray;
+      margin: 1.5rem 0;
+      font-weight: 600;
+      color: @comet;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 20px;
+        padding-right: 5px;
+      }
+
+      &:hover {
+        background: darken(@white, 5%);
+      }
+    }
+  }
+
+  .member {
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
