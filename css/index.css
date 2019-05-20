@@ -706,7 +706,7 @@ footer .footer-content .footer-section2 p {
 .carousel .right-button {
   display: flex;
   justify-content: center;
-  align-items: none;
+  align-items: center;
   flex-direction: row;
   color: #454654;
   background-color: #fefefe;
