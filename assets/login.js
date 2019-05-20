@@ -14,12 +14,8 @@ class Form {
         const storedName = localStorage.getItem('name');
         const storedPw = localStorage.getItem('pw');
 
-        // entered data from the login-form
-        const name = document.querySelector('#userName').value;
-        const pw = document.querySelector('#userPw').value;
-
         // check if stored data from register-form is equal to data from login form
-        if (name !== storedName || pw !== storedPw) {
+        if (this.name.value !== storedName || this.pw.value !== storedPw) {
             alert('ERROR');
         } else {
             alert('You are loged in.');

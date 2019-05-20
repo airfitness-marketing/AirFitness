@@ -483,6 +483,18 @@ footer .footer-content .footer-section2 p {
   padding: 3rem 0;
   background: linear-gradient(0.25turn, #694cf2, #889bfb);
 }
+@media (min-width: 800px) and (max-width: 999px) {
+  .join {
+    max-width: 800px;
+    width: 80%;
+  }
+}
+@media (min-width: 1000px) {
+  .join {
+    max-width: 1000px;
+    width: 50%;
+  }
+}
 .join .form-container {
   display: flex;
   flex-direction: column;
@@ -727,4 +739,66 @@ footer .footer-content .footer-section2 p {
   max-height: 100%;
   height: auto;
   display: none;
+}
+.about {
+  margin: 4rem auto;
+}
+.about .cobrettie {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+@media (min-width: 1000px) {
+  .about .cobrettie {
+    flex-direction: row;
+  }
+}
+.about .ray {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+@media (min-width: 1000px) {
+  .about .ray {
+    flex-direction: row;
+  }
+}
+.about .about-para {
+  width: 98%;
+  margin: 2rem auto;
+}
+@media (min-width: 1000px) {
+  .about .about-para {
+    width: 47%;
+    margin: 2rem auto;
+  }
+}
+.about .about-para h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.about .about-para p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.about .about-images {
+  width: 98%;
+}
+@media (min-width: 1000px) {
+  .about .about-images {
+    width: 47%;
+    margin: 2rem auto;
+  }
+}
+.about .about-images .about-img {
+  width: 98%;
+  border: 1px solid white;
+  border-radius: 50%;
 }
