@@ -24,60 +24,66 @@
 }
 
 // Carousel styling
-.carousel {
-    .width-100();
-    .flex(center, center);
-    height: 1000px;
-    position: relative;
-    overflow: hidden;
-    margin: 16px auto 0 auto;
-    border: 2px solid @ghost;
-    border-radius: 1rem;
-    box-shadow: 0px 0px 5px 1px @ghost;
-
-    // width: 9999px;
-
-    @media @desktop {
-        width: 1000px;
-    }
+.cta-container {
 
 
-    .left-button,
-    .right-button {
+    .carousel {
+        .width-100();
         .flex(center, center);
-        color: @mako;
-        background-color: #fefefe;
-        border: 2px solid @mako;
-        font-size: 40px;
-        border-radius: 50%;
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
+        height: 1000px;
+        position: relative;
+        overflow: hidden;
+        margin: 16px auto 0 auto;
+        border: 2px solid @ghost;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 5px 1px @ghost;
 
-        &:hover {
-            color: #fefefe;
-            background-color: @mako;
-            border: 2px solid #fefefe;
+        // width: 9999px;
+
+        @media @desktop {
+            width: 1000px;
+        }
+
+
+        .left-button,
+        .right-button {
+            .flex(center, center);
+            color: @mako;
+            background-color: #fefefe;
+            border: 2px solid @mako;
+            font-size: 40px;
+            border-radius: 50%;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+
+            &:hover {
+                color: #fefefe;
+                background-color: @mako;
+                border: 2px solid #fefefe;
+            }
+        }
+
+        .left-button {
+            top: 50%;
+            left: 25px;
+            transform: translate(0, -50%);
+        }
+
+        .right-button {
+            top: 50%;
+            right: 25px;
+            transform: translate(0, -50%);
+        }
+
+        img {
+            .width-100();
+            max-height: 100%;
+            height: auto;
+            display: none;
         }
     }
 
-    .left-button {
-        top: 50%;
-        left: 25px;
-        transform: translate(0, -50%);
-    }
-
-    .right-button {
-        top: 50%;
-        right: 25px;
-        transform: translate(0, -50%);
-    }
-
-    img {
-        .width-100();
-        max-height: 100%;
-        height: auto;
-        display: none;
-    }
+    .info-container {}
 }

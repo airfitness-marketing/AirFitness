@@ -683,7 +683,7 @@ footer .footer-content .footer-section2 p {
   font-size: 2rem;
   margin: 20px 0 0 0;
 }
-.carousel {
+.cta-container .carousel {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -698,12 +698,12 @@ footer .footer-content .footer-section2 p {
   box-shadow: 0px 0px 5px 1px #cccdd6;
 }
 @media (min-width: 1000px) {
-  .carousel {
+  .cta-container .carousel {
     width: 1000px;
   }
 }
-.carousel .left-button,
-.carousel .right-button {
+.cta-container .carousel .left-button,
+.cta-container .carousel .right-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -718,23 +718,23 @@ footer .footer-content .footer-section2 p {
   height: 50px;
   cursor: pointer;
 }
-.carousel .left-button:hover,
-.carousel .right-button:hover {
+.cta-container .carousel .left-button:hover,
+.cta-container .carousel .right-button:hover {
   color: #fefefe;
   background-color: #454654;
   border: 2px solid #fefefe;
 }
-.carousel .left-button {
+.cta-container .carousel .left-button {
   top: 50%;
   left: 25px;
   transform: translate(0, -50%);
 }
-.carousel .right-button {
+.cta-container .carousel .right-button {
   top: 50%;
   right: 25px;
   transform: translate(0, -50%);
 }
-.carousel img {
+.cta-container .carousel img {
   width: 100%;
   max-height: 100%;
   height: auto;
