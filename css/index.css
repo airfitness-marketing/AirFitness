@@ -760,6 +760,19 @@ footer .footer-content .footer-section2 p {
     flex-direction: row;
   }
 }
+.about .user-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 4rem;
+  margin: 3rem 0;
+}
+.about .user-media a {
+  color: black;
+}
+.about .user-media a:hover {
+  font-size: 4.5rem;
+}
 .about .ray {
   display: flex;
   justify-content: space-around;
