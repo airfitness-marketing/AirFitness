@@ -6,6 +6,16 @@
     padding: 3rem 0;
     background: linear-gradient(0.25turn, @royal-blue, @malibu);
 
+    @media @tablet {
+        max-width: 800px;
+        width: 80%;
+    }
+
+    @media @desktop {
+        max-width: 1000px;
+        width: 50%;
+    }
+
     .form-container {
         display: flex;
         flex-direction: column;
@@ -33,7 +43,8 @@
             border: 2px solid @white-lilac;
         }
 
-        .join-now {
+        .join-now,
+        .log-in {
             width: 80%;
             padding: .8rem;
             background: white;
