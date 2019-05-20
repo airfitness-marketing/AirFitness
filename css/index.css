@@ -668,7 +668,11 @@ footer .footer-content .footer-section2 p {
   color: #454654;
   text-transform: ;
 }
-.abov-carous-head {
+.cta-container {
+  margin: 0 1.5%;
+  color: #454654;
+}
+.cta-container .abov-carous-head {
   margin: 50px 1.5% 30px 1.5%;
   padding: 40px 0;
   text-align: center;
@@ -679,7 +683,7 @@ footer .footer-content .footer-section2 p {
   border-radius: 1rem;
   box-shadow: 0px 0px 5px 1px #cccdd6;
 }
-.abov-carous-head p {
+.cta-container .abov-carous-head p {
   font-size: 2rem;
   margin: 20px 0 0 0;
 }
