@@ -745,10 +745,14 @@ footer .footer-content .footer-section2 p {
 }
 .about .cobrettie {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin: 2rem auto;
 }
 .about .ray {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin: 2rem auto;
 }
 .about .about-para {
@@ -764,4 +768,9 @@ footer .footer-content .footer-section2 p {
 }
 .about .about-images {
   width: 47%;
+}
+.about .about-images .about-img {
+  width: 98%;
+  border: 1px solid white;
+  border-radius: 50%;
 }
