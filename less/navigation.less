@@ -1,6 +1,7 @@
 header {
     display: flex;
     flex-direction: column;
+    align-content: center;
     // justify-content: space-between;
     margin: 2rem;
     padding-bottom: 20px;
@@ -17,16 +18,12 @@ header {
         h1 {
             display: flex;
             flex-direction: column;
-            font-size: 5rem;
+            font-size: 8rem;
             font-weight: 600;
             color: black;
 
-            @media @desktop {
-                font-size: 8rem;
-            }
-
             .fitness {
-                .font(3rem, 400);
+                .font(4.8rem, 400);
                 color: black;
 
                 @media @desktop {
@@ -37,6 +34,10 @@ header {
 
         i {
             font-size: 3.5rem;
+
+            @media @vsmall {
+                padding-top: 20px;
+            }
 
             @media @desktop {
                 font-size: 4.5rem;
@@ -67,7 +68,9 @@ header {
 }
 
 nav.top-nav {
-    .flex(space-around, center, row);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
     //   @media @vsmall {
     //     font-size: 0.9rem;
@@ -88,9 +91,42 @@ nav.top-nav {
         text-decoration: none;
         color: @mako;
 
+        @media @vsmall {
+            border-bottom: 1px solid gray;
+        }
+
         @media @desktop {
             font-size: 2.5rem;
-            padding: 0 30px;
+        }
+    }
+
+    a:nth-child(2) {
+        @media @phone {
+            padding-top: 15px;
+        }
+
+        @media @vsmall {
+            padding-top: 15px;
+        }
+    }
+
+    a:nth-child(3) {
+        @media @phone {
+            padding-top: 15px;
+        }
+
+        @media @vsmall {
+            padding-top: 15px;
+        }
+    }
+
+    a:nth-child(4) {
+        @media @phone {
+            padding-top: 15px;
+        }
+
+        @media @vsmall {
+            padding-top: 15px;
         }
     }
 
@@ -98,6 +134,12 @@ nav.top-nav {
         color: white;
         background: linear-gradient(0.25turn, @bright-turq, @cornflower-blue);
         border-radius: 30px;
+
+        @media @vsmall,
+        @phone {
+            color: @ghost;
+            background: none;
+        }
     }
 }
 
@@ -107,5 +149,13 @@ nav.top-nav {
     padding: 1.5rem 1rem;
     border: 1px solid white;
     border-radius: 30px;
-    box-shadow: 0px 1px 20px 3px lightgray;
+    box-shadow: 0px 1px 10px 2px lightgray;
+
+    @media @vsmall {
+        flex-direction: column;
+    }
+
+    @media @phone {
+        flex-direction: column;
+    }
 }
