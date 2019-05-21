@@ -17,11 +17,8 @@
     }
 
     .form-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        background: white;
+        .flex(space-around, center, column);
+        background: @white;
         width: 85%;
         margin: 1rem auto;
         padding: 2rem 0;
@@ -30,11 +27,8 @@
     }
 
     .form-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
+        .flex(space-around, center, column);
+        .width-100;
 
         .form {
             margin: 1rem 0;
@@ -49,7 +43,7 @@
         .log-in {
             width: 80%;
             padding: .8rem;
-            background: white;
+            background: @white;
             border: 2px solid @blue-violet;
             border-radius: 5px;
             margin: 1.5rem 0;
@@ -69,8 +63,8 @@
         .google {
             width: 80%;
             padding: 1rem;
-            background: white;
-            border: 1px solid lightgray;
+            background: @white;
+            border: 1px solid @manatee;
             margin: 1.5rem 0;
             font-weight: 600;
             color: @comet;

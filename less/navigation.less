@@ -7,9 +7,7 @@ header {
     font-family: sans-serif;
 
     .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        .flex(space-between, center, row);
         padding-bottom: 30px;
 
         .home-link {
@@ -28,8 +26,7 @@ header {
             }
 
             .fitness {
-                font-size: 3rem;
-                font-weight: 400;
+                .font(3rem, 400);
                 color: black;
 
                 @media @desktop {
@@ -70,9 +67,7 @@ header {
 }
 
 nav.top-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    .flex(space-around, center, row);
 
     //   @media @vsmall {
     //     font-size: 0.9rem;
