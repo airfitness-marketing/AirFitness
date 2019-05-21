@@ -277,7 +277,7 @@ nav.top-nav a:hover {
   padding: 1.5rem 1rem;
   border: 1px solid white;
   border-radius: 30px;
-  box-shadow: 0px 1px 20px 3px lightgray;
+  box-shadow: 0px 1px 10px 2px lightgray;
 }
 @media (min-width: 320px) and (max-width: 500px) {
   .home {
@@ -728,7 +728,7 @@ footer .footer-content .footer-section2 p {
   letter-spacing: 1px;
 }
 .cta-container .abov-carous-head hr {
-  width: 60%;
+  width: 95%;
 }
 @media (min-width: 100px) and (max-width: 319px) {
   .cta-container .abov-carous-head {
@@ -839,6 +839,14 @@ footer .footer-content .footer-section2 p {
 .cta-container .info-container {
   padding: 60px 0 0 0;
 }
+.cta-container .info-container hr {
+  width: 95%;
+}
+@media (min-width: 501px) and (max-width: 999px) {
+  .cta-container .info-container hr {
+    width: 90%;
+  }
+}
 .cta-container .info-container .ic-h2 {
   text-align: center;
   font-size: 4rem;
@@ -849,7 +857,7 @@ footer .footer-content .footer-section2 p {
   justify-content: space-between;
 }
 .cta-container .info-container .info .info-card h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding: 20px 0 10px 0;
 }
 .cta-container .info-container .info .info-card p {
