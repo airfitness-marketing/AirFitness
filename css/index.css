@@ -163,22 +163,30 @@ header .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
   padding-bottom: 30px;
 }
+<<<<<<< HEAD
 @media (min-width: 100px) and (max-width: 319px) {
   header .header {
     flex-direction: column;
   }
+=======
+header .header .home-link {
+  text-decoration: none;
+>>>>>>> ac4eec410aa7204f299c35f222c3513ce65e14d7
 }
 header .header h1 {
   display: flex;
   flex-direction: column;
   font-size: 8rem;
   font-weight: 600;
+  color: black;
 }
 header .header h1 .fitness {
   font-size: 4.8rem;
   font-weight: 400;
+  color: black;
 }
 header .header i {
   font-size: 3.5rem;
@@ -217,6 +225,7 @@ nav.top-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: row;
 }
 nav.top-nav .welcome {
   font-size: 3rem;
@@ -304,8 +313,9 @@ footer {
 }
 footer .footer-content {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 footer .footer-content .footer-section1 h2 {
   display: flex;
@@ -541,34 +551,36 @@ footer .footer-content .footer-section2 p {
 }
 .join .form-container {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: white;
+  flex-direction: column;
+  background: #ffffff;
   width: 85%;
   margin: 1rem auto;
   padding: 2rem 0;
-  box-shadow: 1px 1px 3px #141414;
+  box-shadow: inset 0px 0.5px 3px #8f91a2;
   border-radius: 3px;
 }
 .join .form-content {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
   width: 100%;
 }
 .join .form-content .form {
   margin: 1rem 0;
   width: 80%;
   padding: 0.8rem;
-  border: 2px solid #eff1f9;
+  border: 1px solid #8f91a2;
+  border-radius: 0.5rem;
+  box-shadow: inset 0px 0.5px 3px #8f91a2;
 }
 .join .form-content .join-now,
 .join .form-content .log-in {
   width: 80%;
   padding: 0.8rem;
-  background: white;
+  background: #ffffff;
   border: 2px solid #5e50bc;
   border-radius: 5px;
   margin: 1.5rem 0;
@@ -585,8 +597,8 @@ footer .footer-content .footer-section2 p {
 .join .form-content .google {
   width: 80%;
   padding: 1rem;
-  background: white;
-  border: 1px solid lightgray;
+  background: #ffffff;
+  border: 1px solid #8f91a2;
   margin: 1.5rem 0;
   font-weight: 600;
   color: #606276;
@@ -875,8 +887,8 @@ footer .footer-content .footer-section2 p {
 .about .cobrettie {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   margin: 2rem auto;
   padding: 2rem 0;
 }
@@ -889,11 +901,13 @@ footer .footer-content .footer-section2 p {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: row;
   font-size: 4rem;
+  font-weight: 400;
   margin: 3rem 0;
 }
 .about .user-media a {
-  color: black;
+  color: #f76b1c;
 }
 .about .user-media a:hover {
   font-size: 4.5rem;
@@ -901,8 +915,8 @@ footer .footer-content .footer-section2 p {
 .about .ray {
   display: flex;
   justify-content: space-around;
-  flex-direction: column-reverse;
   align-items: center;
+  flex-direction: column-reverse;
   margin: 2rem auto;
   padding: 2rem 0;
 }
@@ -922,7 +936,7 @@ footer .footer-content .footer-section2 p {
   }
 }
 .about .about-para h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 600;
   margin-bottom: 3rem;
 }

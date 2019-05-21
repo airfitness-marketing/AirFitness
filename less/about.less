@@ -2,10 +2,7 @@
     margin: 4rem auto;
 
     .cobrettie {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
+        .flex(space-around, center, column);
         margin: 2rem auto;
         padding: 2rem 0;
 
@@ -15,14 +12,12 @@
     }
 
     .user-media {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 4rem;
+        .flex(space-around, center, row);
+        .font(4rem, 400);
         margin: 3rem 0;
 
         a {
-            color: black;
+            color: @ecstasy;
 
             &:hover {
                 font-size: 4.5rem;
@@ -31,10 +26,7 @@
     }
 
     .ray {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column-reverse;
-        align-items: center;
+        .flex(space-around, center, column-reverse);
         margin: 2rem auto;
         padding: 2rem 0;
 
@@ -53,8 +45,7 @@
         }
 
         h2 {
-            font-size: 2.5rem;
-            font-weight: 600;
+            .font(3rem, 600);
             margin-bottom: 3rem;
         }
 

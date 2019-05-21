@@ -17,37 +17,33 @@
     }
 
     .form-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        background: white;
+        .flex(space-around, center, column);
+        background: @white;
         width: 85%;
         margin: 1rem auto;
         padding: 2rem 0;
-        box-shadow: 1px 1px 3px rgb(20, 20, 20);
+        box-shadow: inset 0px .5px 3px @manatee;
         border-radius: 3px;
     }
 
     .form-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
+        .flex(space-around, center, column);
+        .width-100;
 
         .form {
             margin: 1rem 0;
             width: 80%;
             padding: 0.8rem;
-            border: 2px solid @white-lilac;
+            border: 1px solid @manatee;
+            border-radius: .5rem;
+            box-shadow: inset 0px .5px 3px @manatee;
         }
 
         .join-now,
         .log-in {
             width: 80%;
             padding: .8rem;
-            background: white;
+            background: @white;
             border: 2px solid @blue-violet;
             border-radius: 5px;
             margin: 1.5rem 0;
@@ -67,8 +63,8 @@
         .google {
             width: 80%;
             padding: 1rem;
-            background: white;
-            border: 1px solid lightgray;
+            background: @white;
+            border: 1px solid @manatee;
             margin: 1.5rem 0;
             font-weight: 600;
             color: @comet;
