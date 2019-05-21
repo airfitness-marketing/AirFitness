@@ -9,16 +9,13 @@ footer {
     font-family: sans-serif;
 
     .footer-content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        .flex(space-between, center, row);
 
         .footer-section1 {
             h2 {
                 display: flex;
                 flex-direction: column;
-                font-size: 5rem;
-                font-weight: 600;
+                .font(5rem, 600);
                 color: white;
 
                 @media @desktop {
@@ -26,8 +23,7 @@ footer {
                 }
 
                 .fitness {
-                    font-size: 3rem;
-                    font-weight: 400;
+                    .font(3rem, 400);
 
                     @media @desktop {
                         font-size: 3.5rem;

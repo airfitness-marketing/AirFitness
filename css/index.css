@@ -163,6 +163,7 @@ header .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
   padding-bottom: 30px;
 }
 header .header .home-link {
@@ -222,6 +223,7 @@ nav.top-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: row;
 }
 nav.top-nav .welcome {
   font-size: 3rem;
@@ -265,8 +267,9 @@ footer {
 }
 footer .footer-content {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 footer .footer-content .footer-section1 h2 {
   display: flex;
@@ -773,6 +776,7 @@ footer .footer-content .footer-section2 p {
   align-items: center;
   flex-direction: row;
   font-size: 4rem;
+  font-weight: 400;
   margin: 3rem 0;
 }
 .about .user-media a {
@@ -805,7 +809,7 @@ footer .footer-content .footer-section2 p {
   }
 }
 .about .about-para h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 600;
   margin-bottom: 3rem;
 }
