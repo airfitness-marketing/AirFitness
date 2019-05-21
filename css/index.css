@@ -165,6 +165,11 @@ header .header {
   align-items: center;
   padding-bottom: 30px;
 }
+@media (min-width: 100px) and (max-width: 319px) {
+  header .header {
+    flex-direction: column;
+  }
+}
 header .header h1 {
   display: flex;
   flex-direction: column;
@@ -176,9 +181,19 @@ header .header h1 {
     font-size: 8rem;
   }
 }
+@media (min-width: 501px) and (max-width: 999px) {
+  header .header h1 {
+    font-size: 6rem;
+  }
+}
 header .header h1 .fitness {
   font-size: 3rem;
   font-weight: 400;
+}
+@media (min-width: 501px) and (max-width: 999px) {
+  header .header h1 .fitness {
+    font-size: 3.6rem;
+  }
 }
 @media (min-width: 1000px) {
   header .header h1 .fitness {
@@ -187,6 +202,11 @@ header .header h1 .fitness {
 }
 header .header i {
   font-size: 3.5rem;
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  header .header i {
+    padding-top: 20px;
+  }
 }
 @media (min-width: 1000px) {
   header .header i {
@@ -235,7 +255,36 @@ nav.top-nav a {
 @media (min-width: 1000px) {
   nav.top-nav a {
     font-size: 2.5rem;
-    padding: 0 30px;
+  }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  nav.top-nav a:nth-child(2) {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  nav.top-nav a:nth-child(2) {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  nav.top-nav a:nth-child(3) {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  nav.top-nav a:nth-child(3) {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  nav.top-nav a:nth-child(4) {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  nav.top-nav a:nth-child(4) {
+    padding-top: 15px;
   }
 }
 nav.top-nav a:hover {
@@ -249,6 +298,16 @@ nav.top-nav a:hover {
   border: 1px solid white;
   border-radius: 30px;
   box-shadow: 0px 1px 20px 3px lightgray;
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  .home {
+    flex-direction: column;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  .home {
+    flex-direction: column;
+  }
 }
 footer {
   display: flex;
@@ -321,7 +380,7 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #44398c, #6876fa);
 }
-@media (min-width: 100px) and (max-width: 480px) {
+@media (min-width: 100px) and (max-width: 319px) {
   .card-container .card1 {
     flex-direction: column;
   }
@@ -376,7 +435,7 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #90e7e0, dodgerblue);
 }
-@media (min-width: 100px) and (max-width: 480px) {
+@media (min-width: 100px) and (max-width: 319px) {
   .card-container .card2 {
     flex-direction: column;
   }
@@ -430,7 +489,7 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #cc5817, #fad961);
 }
-@media (min-width: 100px) and (max-width: 480px) {
+@media (min-width: 100px) and (max-width: 319px) {
   .card-container .card3 {
     flex-direction: column;
   }
@@ -483,7 +542,7 @@ footer .footer-content .footer-section2 p {
   padding: 3rem 0;
   background: linear-gradient(0.25turn, #694cf2, #889bfb);
 }
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 501px) and (max-width: 999px) {
   .join {
     max-width: 800px;
     width: 80%;
@@ -574,7 +633,7 @@ footer .footer-content .footer-section2 p {
   justify-content: flex-start;
   align-items: center;
 }
-@media (min-width: 100px) and (max-width: 480px) {
+@media (min-width: 100px) and (max-width: 319px) {
   .p-pass-head-text {
     flex-direction: column;
   }
@@ -620,7 +679,7 @@ footer .footer-content .footer-section2 p {
   display: flex;
   flex-direction: row;
 }
-@media (min-width: 100px) and (max-width: 480px) {
+@media (min-width: 100px) and (max-width: 319px) {
   .p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div-alt {
     flex-direction: column;
   }
@@ -651,7 +710,7 @@ footer .footer-content .footer-section2 p {
   border-radius: 0.5rem;
   background: linear-gradient(#5e50bc, #889bfb);
 }
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 501px) and (max-width: 999px) {
   .p-pass-create-form .ppc-form-container button {
     margin: 60px auto 0 auto;
     width: 60%;
@@ -673,19 +732,49 @@ footer .footer-content .footer-section2 p {
   color: #454654;
 }
 .cta-container .abov-carous-head {
-  margin: 50px 1.5% 30px 1.5%;
+  margin: 50px 0 30px 0;
   padding: 40px 0;
   text-align: center;
-  font-size: 5rem;
+  font-size: 3.6rem;
   color: #454654;
   letter-spacing: 1px;
   border: 2px solid #cccdd6;
   border-radius: 1rem;
   box-shadow: 0px 0px 5px 1px #cccdd6;
 }
+@media (min-width: 320px) and (max-width: 500px) {
+  .cta-container .abov-carous-head {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  .cta-container .abov-carous-head {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 999px) {
+  .cta-container .abov-carous-head {
+    font-size: 2.8rem;
+  }
+}
 .cta-container .abov-carous-head p {
   font-size: 2rem;
   margin: 20px 0 0 0;
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  .cta-container .abov-carous-head p {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  .cta-container .abov-carous-head p {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 999px) {
+  .cta-container .abov-carous-head p {
+    font-size: 1.6rem;
+  }
 }
 .cta-container .carousel {
   width: 100%;
@@ -701,9 +790,19 @@ footer .footer-content .footer-section2 p {
   border-radius: 1rem;
   box-shadow: 0px 0px 5px 1px #cccdd6;
 }
-@media (min-width: 1000px) {
+@media (min-width: 100px) and (max-width: 319px) {
   .cta-container .carousel {
-    width: 1000px;
+    height: 300px;
+  }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  .cta-container .carousel {
+    height: 500px;
+  }
+}
+@media (min-width: 501px) and (max-width: 999px) {
+  .cta-container .carousel {
+    height: 650px;
   }
 }
 .cta-container .carousel .left-button,

@@ -12,6 +12,10 @@ header {
         align-items: center;
         padding-bottom: 30px;
 
+        @media @vsmall {
+            flex-direction: column;
+        }
+
         h1 {
             display: flex;
             flex-direction: column;
@@ -22,9 +26,17 @@ header {
                 font-size: 8rem;
             }
 
+            @media @tablet {
+                font-size: 6rem;
+            }
+
             .fitness {
                 font-size: 3rem;
                 font-weight: 400;
+
+                @media @tablet {
+                    font-size: 3.6rem;
+                }
 
                 @media @desktop {
                     font-size: 4.8rem;
@@ -34,6 +46,10 @@ header {
 
         i {
             font-size: 3.5rem;
+
+            @media @vsmall {
+                padding-top: 20px;
+            }
 
             @media @desktop {
                 font-size: 4.5rem;
@@ -89,7 +105,36 @@ nav.top-nav {
 
         @media @desktop {
             font-size: 2.5rem;
-            padding: 0 30px;
+        }
+    }
+
+    a:nth-child(2) {
+        @media @phone {
+            padding-top: 15px;
+        }
+
+        @media @vsmall {
+            padding-top: 15px;
+        }
+    }
+
+    a:nth-child(3) {
+        @media @phone {
+            padding-top: 15px;
+        }
+
+        @media @vsmall {
+            padding-top: 15px;
+        }
+    }
+
+    a:nth-child(4) {
+        @media @phone {
+            padding-top: 15px;
+        }
+
+        @media @vsmall {
+            padding-top: 15px;
         }
     }
 
@@ -107,4 +152,12 @@ nav.top-nav {
     border: 1px solid white;
     border-radius: 30px;
     box-shadow: 0px 1px 20px 3px lightgray;
+
+    @media @phone {
+        flex-direction: column;
+    }
+
+    @media @vsmall {
+        flex-direction: column;
+    }
 }
