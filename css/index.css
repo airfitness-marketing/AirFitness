@@ -155,6 +155,7 @@ html {
 header {
   display: flex;
   flex-direction: column;
+  align-content: center;
   margin: 2rem;
   padding-bottom: 20px;
   font-family: sans-serif;
@@ -166,15 +167,8 @@ header .header {
   flex-direction: row;
   padding-bottom: 30px;
 }
-<<<<<<< HEAD
-@media (min-width: 100px) and (max-width: 319px) {
-  header .header {
-    flex-direction: column;
-  }
-=======
 header .header .home-link {
   text-decoration: none;
->>>>>>> ac4eec410aa7204f299c35f222c3513ce65e14d7
 }
 header .header h1 {
   display: flex;
@@ -187,6 +181,11 @@ header .header h1 .fitness {
   font-size: 4.8rem;
   font-weight: 400;
   color: black;
+}
+@media (min-width: 1000px) {
+  header .header h1 .fitness {
+    font-size: 4.8rem;
+  }
 }
 header .header i {
   font-size: 3.5rem;
@@ -225,7 +224,6 @@ nav.top-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: row;
 }
 nav.top-nav .welcome {
   font-size: 3rem;
@@ -285,6 +283,12 @@ nav.top-nav a:hover {
   color: white;
   background: linear-gradient(0.25turn, #17ead9, #6876fa);
   border-radius: 30px;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  nav.top-nav a:hover {
+    color: #cccdd6;
+    background: none;
+  }
 }
 .home {
   font-size: 2rem;
