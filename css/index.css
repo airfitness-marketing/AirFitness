@@ -523,7 +523,9 @@ footer .footer-content .footer-section2 p {
   margin: 1rem 0;
   width: 80%;
   padding: 0.8rem;
-  border: 2px solid #eff1f9;
+  border: 1px solid #8f91a2;
+  border-radius: 0.5rem;
+  box-shadow: inset 0px 0.5px 3px #8f91a2;
 }
 .join .form-content .join-now,
 .join .form-content .log-in {
