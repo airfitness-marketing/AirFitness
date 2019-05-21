@@ -87,6 +87,10 @@ nav.top-nav {
         text-decoration: none;
         color: @mako;
 
+        @media @vsmall {
+            border-bottom: 1px solid gray;
+        }
+
         @media @desktop {
             font-size: 2.5rem;
         }
@@ -137,11 +141,11 @@ nav.top-nav {
     border-radius: 30px;
     box-shadow: 0px 1px 10px 2px lightgray;
 
-    @media @phone {
+    @media @vsmall {
         flex-direction: column;
     }
 
-    @media @vsmall {
+    @media @phone {
         flex-direction: column;
     }
 }
