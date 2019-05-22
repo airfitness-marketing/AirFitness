@@ -1000,7 +1000,7 @@ footer .footer-content .footer-section2 p {
   color: #f76b1c;
 }
 .about .user-media a:hover {
-  font-size: 4.5rem;
+  color: #f15c08;
 }
 .about .ray {
   display: flex;
@@ -1047,30 +1047,4 @@ footer .footer-content .footer-section2 p {
   width: 98%;
   border: 1px solid white;
   border-radius: 50%;
-}
-.about #first-item {
-  animation: 2s ease-out 0s 1 slideInFromLeft;
-}
-.about #second-item {
-  animation: 4s ease-out 0s 1 slideInFromRight;
-}
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
