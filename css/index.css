@@ -959,6 +959,17 @@ footer .footer-content .footer-section2 p {
   flex-direction: column;
   justify-content: space-between;
 }
+@media (min-width: 501px) and (max-width: 999px), (min-width: 1000px) {
+  .cta-container .info-container .info {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 501px) and (max-width: 999px), (min-width: 1000px) {
+  .cta-container .info-container .info .info-card {
+    width: 45%;
+  }
+}
 .cta-container .info-container .info .info-card h2 {
   font-size: 2rem;
   padding: 20px 0 15px 0;
