@@ -25,7 +25,8 @@
     color: @white;
     background: linear-gradient(0.25turn, @gigas, @cornflower-blue);
 
-    @media @vsmall {
+    @media @vsmall,
+    @phone {
       flex-direction: column;
     }
 
@@ -39,6 +40,11 @@
     img {
       padding: 10px 0 10px 20px;
 
+      @media @vsmall,
+      @phone {
+        padding: 10px;
+      }
+
       @media @desktop {
         padding: 20px 5%;
       }
@@ -49,9 +55,11 @@
       letter-spacing: 1.5px;
       padding: 0 0 20px 6rem;
 
-      //   @media @vsmall {
-      //     word-wrap: break-word;
-      //   }
+      @media @vsmall,
+      @phone {
+        text-align: center;
+        padding: 0 10px 20px 10px;
+      }
 
       @media @desktop {
         text-align: center;
@@ -64,6 +72,12 @@
       font-size: 1.4rem;
       letter-spacing: 1px;
       padding: 0 0 0 6rem;
+
+      @media @vsmall,
+      @phone {
+        text-align: center;
+        padding: 0 10px;
+      }
 
       @media @desktop {
         padding: 20px 0;
@@ -83,7 +97,8 @@
     color: @white;
     background: linear-gradient(0.25turn, @riptide, dodgerblue);
 
-    @media @vsmall {
+    @media @vsmall,
+    @phone {
       flex-direction: column;
     }
 
@@ -97,6 +112,11 @@
     img {
       padding: 10px 20px 10px 0;
 
+      @media @vsmall,
+      @phone {
+        padding: 10px;
+      }
+
       @media @desktop {
         padding: 20px 5%;
       }
@@ -106,6 +126,12 @@
       font-size: 4rem;
       padding: 0 0 20px 3rem;
       letter-spacing: 1.5px;
+
+      @media @vsmall,
+      @phone {
+        text-align: center;
+        padding: 0 10px 20px 10px;
+      }
 
       @media @desktop {
         text-align: center;
@@ -118,6 +144,12 @@
       font-size: 1.4rem;
       letter-spacing: 1px;
       padding: 0 0 0 3rem;
+
+      @media @vsmall,
+      @phone {
+        text-align: center;
+        padding: 0 10px;
+      }
 
       @media @desktop {
         padding: 20px 0;
@@ -136,7 +168,8 @@
     color: @white;
     background: linear-gradient(0.25turn, @orange-roughy, @energy-yellow);
 
-    @media @vsmall {
+    @media @vsmall,
+    @phone {
       flex-direction: column;
     }
 
@@ -150,6 +183,11 @@
     img {
       padding: 10px 0 10px 20px;
 
+      @media @vsmall,
+      @phone {
+        padding: 10px;
+      }
+
       @media @desktop {
         padding: 20px 5%;
       }
@@ -159,6 +197,12 @@
       font-size: 4rem;
       letter-spacing: 1.5px;
       padding: 0 0 20px 6rem;
+
+      @media @vsmall,
+      @phone {
+        text-align: center;
+        padding: 0 10px 20px 10px;
+      }
 
       @media @desktop {
         text-align: center;
@@ -171,6 +215,12 @@
       font-size: 1.4rem;
       letter-spacing: 1px;
       padding: 0 0 0 6rem;
+
+      @media @vsmall,
+      @phone {
+        text-align: center;
+        padding: 0 10px;
+      }
 
       @media @desktop {
         padding: 20px 0;

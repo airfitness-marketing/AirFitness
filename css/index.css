@@ -365,7 +365,7 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #44398c, #6876fa);
 }
-@media (min-width: 100px) and (max-width: 319px) {
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .card-container .card1 {
     flex-direction: column;
   }
@@ -381,6 +381,11 @@ footer .footer-content .footer-section2 p {
 .card-container .card1 img {
   padding: 10px 0 10px 20px;
 }
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card1 img {
+    padding: 10px;
+  }
+}
 @media (min-width: 1000px) {
   .card-container .card1 img {
     padding: 20px 5%;
@@ -390,6 +395,12 @@ footer .footer-content .footer-section2 p {
   font-size: 4rem;
   letter-spacing: 1.5px;
   padding: 0 0 20px 6rem;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card1 h3 {
+    text-align: center;
+    padding: 0 10px 20px 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card1 h3 {
@@ -402,6 +413,12 @@ footer .footer-content .footer-section2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 6rem;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card1 p {
+    text-align: center;
+    padding: 0 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card1 p {
@@ -420,7 +437,7 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #90e7e0, dodgerblue);
 }
-@media (min-width: 100px) and (max-width: 319px) {
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .card-container .card2 {
     flex-direction: column;
   }
@@ -436,6 +453,11 @@ footer .footer-content .footer-section2 p {
 .card-container .card2 img {
   padding: 10px 20px 10px 0;
 }
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card2 img {
+    padding: 10px;
+  }
+}
 @media (min-width: 1000px) {
   .card-container .card2 img {
     padding: 20px 5%;
@@ -445,6 +467,12 @@ footer .footer-content .footer-section2 p {
   font-size: 4rem;
   padding: 0 0 20px 3rem;
   letter-spacing: 1.5px;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card2 h3 {
+    text-align: center;
+    padding: 0 10px 20px 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card2 h3 {
@@ -457,6 +485,12 @@ footer .footer-content .footer-section2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 3rem;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card2 p {
+    text-align: center;
+    padding: 0 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card2 p {
@@ -474,7 +508,7 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #cc5817, #fad961);
 }
-@media (min-width: 100px) and (max-width: 319px) {
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .card-container .card3 {
     flex-direction: column;
   }
@@ -490,6 +524,11 @@ footer .footer-content .footer-section2 p {
 .card-container .card3 img {
   padding: 10px 0 10px 20px;
 }
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card3 img {
+    padding: 10px;
+  }
+}
 @media (min-width: 1000px) {
   .card-container .card3 img {
     padding: 20px 5%;
@@ -499,6 +538,12 @@ footer .footer-content .footer-section2 p {
   font-size: 4rem;
   letter-spacing: 1.5px;
   padding: 0 0 20px 6rem;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card3 h3 {
+    text-align: center;
+    padding: 0 10px 20px 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card3 h3 {
@@ -511,6 +556,12 @@ footer .footer-content .footer-section2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 6rem;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card3 p {
+    text-align: center;
+    padding: 0 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card3 p {
