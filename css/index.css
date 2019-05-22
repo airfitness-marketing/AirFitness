@@ -438,6 +438,11 @@ footer .footer-content .footer-section2 p {
     padding: 0 10px;
   }
 }
+@media (min-width: 501px) and (max-width: 999px) {
+  .card-container .card1 p {
+    padding-right: 30px;
+  }
+}
 @media (min-width: 1000px) {
   .card-container .card1 p {
     padding: 20px 0;
@@ -589,6 +594,11 @@ footer .footer-content .footer-section2 p {
   .card-container .card3 p {
     text-align: center;
     padding: 0 10px;
+  }
+}
+@media (min-width: 501px) and (max-width: 999px) {
+  .card-container .card3 p {
+    padding-right: 30px;
   }
 }
 @media (min-width: 1000px) {
