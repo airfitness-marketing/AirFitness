@@ -755,7 +755,7 @@ footer .footer-content .footer-section2 p {
   display: flex;
   flex-direction: row;
 }
-@media (min-width: 100px) and (max-width: 319px) {
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .p-pass-create-form .ppc-form-container .ppc-form-content .ppc-form-div-alt {
     flex-direction: column;
   }
