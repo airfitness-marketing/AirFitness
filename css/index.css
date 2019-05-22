@@ -167,6 +167,12 @@ header .header {
   flex-direction: row;
   padding-bottom: 30px;
 }
+@media (min-width: 100px) and (max-width: 319px) {
+  header .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
 header .header .home-link {
   text-decoration: none;
 }
@@ -308,6 +314,12 @@ footer .footer-content {
   align-items: center;
   flex-direction: row;
 }
+@media (min-width: 100px) and (max-width: 319px) {
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
 footer .footer-content .footer-section1 h2 {
   display: flex;
   flex-direction: column;
@@ -397,6 +409,11 @@ footer .footer-content .footer-section2 p {
   letter-spacing: 1.5px;
   padding: 0 0 20px 6rem;
 }
+@media (min-width: 100px) and (max-width: 319px) {
+  .card-container .card1 h3 {
+    font-size: 3rem;
+  }
+}
 @media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .card-container .card1 h3 {
     text-align: center;
@@ -469,6 +486,11 @@ footer .footer-content .footer-section2 p {
   padding: 0 0 20px 3rem;
   letter-spacing: 1.5px;
 }
+@media (min-width: 100px) and (max-width: 319px) {
+  .card-container .card2 h3 {
+    font-size: 3rem;
+  }
+}
 @media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .card-container .card2 h3 {
     text-align: center;
@@ -539,6 +561,11 @@ footer .footer-content .footer-section2 p {
   font-size: 4rem;
   letter-spacing: 1.5px;
   padding: 0 0 20px 6rem;
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  .card-container .card3 h3 {
+    font-size: 3rem;
+  }
 }
 @media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .card-container .card3 h3 {

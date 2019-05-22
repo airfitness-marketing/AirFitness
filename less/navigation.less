@@ -11,6 +11,11 @@ header {
         .flex(space-between, center, row);
         padding-bottom: 30px;
 
+        @media @vsmall {
+            display: flex;
+            flex-direction: column;
+        }
+
         .home-link {
             text-decoration: none;
         }
