@@ -11,6 +11,11 @@ header {
         .flex(space-between, center, row);
         padding-bottom: 30px;
 
+        @media @vsmall {
+            display: flex;
+            flex-direction: column;
+        }
+
         .home-link {
             text-decoration: none;
         }
@@ -90,6 +95,7 @@ nav.top-nav {
     a {
         text-decoration: none;
         color: @mako;
+        padding: 10px 20px;
 
         @media @vsmall,
         @phone {
@@ -145,6 +151,7 @@ nav.top-nav {
         @phone {
             color: @ghost;
             background: none;
+            border-radius: 0px;
         }
     }
 }

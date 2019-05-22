@@ -11,6 +11,11 @@ footer {
     .footer-content {
         .flex(space-between, center, row);
 
+        @media @vsmall {
+            display: flex;
+            flex-direction: column;
+        }
+
         .footer-section1 {
             h2 {
                 display: flex;

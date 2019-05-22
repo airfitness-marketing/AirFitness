@@ -167,6 +167,12 @@ header .header {
   flex-direction: row;
   padding-bottom: 30px;
 }
+@media (min-width: 100px) and (max-width: 319px) {
+  header .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
 header .header .home-link {
   text-decoration: none;
 }
@@ -238,6 +244,7 @@ nav.top-nav .welcome {
 nav.top-nav a {
   text-decoration: none;
   color: #454654;
+  padding: 10px 20px;
 }
 @media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   nav.top-nav a {
@@ -281,6 +288,7 @@ nav.top-nav a:hover {
   nav.top-nav a:hover {
     color: #cccdd6;
     background: none;
+    border-radius: 0px;
   }
 }
 .home {
@@ -305,6 +313,12 @@ footer .footer-content {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
 }
 footer .footer-content .footer-section1 h2 {
   display: flex;
@@ -364,7 +378,7 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #44398c, #6876fa);
 }
-@media (min-width: 100px) and (max-width: 319px) {
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .card-container .card1 {
     flex-direction: column;
   }
@@ -380,6 +394,11 @@ footer .footer-content .footer-section2 p {
 .card-container .card1 img {
   padding: 10px 0 10px 20px;
 }
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card1 img {
+    padding: 10px;
+  }
+}
 @media (min-width: 1000px) {
   .card-container .card1 img {
     padding: 20px 5%;
@@ -389,6 +408,17 @@ footer .footer-content .footer-section2 p {
   font-size: 4rem;
   letter-spacing: 1.5px;
   padding: 0 0 20px 6rem;
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  .card-container .card1 h3 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card1 h3 {
+    text-align: center;
+    padding: 0 10px 20px 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card1 h3 {
@@ -401,6 +431,12 @@ footer .footer-content .footer-section2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 6rem;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card1 p {
+    text-align: center;
+    padding: 0 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card1 p {
@@ -419,7 +455,7 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #90e7e0, dodgerblue);
 }
-@media (min-width: 100px) and (max-width: 319px) {
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .card-container .card2 {
     flex-direction: column;
   }
@@ -435,6 +471,11 @@ footer .footer-content .footer-section2 p {
 .card-container .card2 img {
   padding: 10px 20px 10px 0;
 }
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card2 img {
+    padding: 10px;
+  }
+}
 @media (min-width: 1000px) {
   .card-container .card2 img {
     padding: 20px 5%;
@@ -444,6 +485,17 @@ footer .footer-content .footer-section2 p {
   font-size: 4rem;
   padding: 0 0 20px 3rem;
   letter-spacing: 1.5px;
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  .card-container .card2 h3 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card2 h3 {
+    text-align: center;
+    padding: 0 10px 20px 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card2 h3 {
@@ -456,6 +508,12 @@ footer .footer-content .footer-section2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 3rem;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card2 p {
+    text-align: center;
+    padding: 0 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card2 p {
@@ -473,7 +531,7 @@ footer .footer-content .footer-section2 p {
   color: #ffffff;
   background: linear-gradient(0.25turn, #cc5817, #fad961);
 }
-@media (min-width: 100px) and (max-width: 319px) {
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
   .card-container .card3 {
     flex-direction: column;
   }
@@ -489,6 +547,11 @@ footer .footer-content .footer-section2 p {
 .card-container .card3 img {
   padding: 10px 0 10px 20px;
 }
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card3 img {
+    padding: 10px;
+  }
+}
 @media (min-width: 1000px) {
   .card-container .card3 img {
     padding: 20px 5%;
@@ -498,6 +561,17 @@ footer .footer-content .footer-section2 p {
   font-size: 4rem;
   letter-spacing: 1.5px;
   padding: 0 0 20px 6rem;
+}
+@media (min-width: 100px) and (max-width: 319px) {
+  .card-container .card3 h3 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card3 h3 {
+    text-align: center;
+    padding: 0 10px 20px 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card3 h3 {
@@ -510,6 +584,12 @@ footer .footer-content .footer-section2 p {
   font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 0 0 0 6rem;
+}
+@media (min-width: 100px) and (max-width: 319px), (min-width: 320px) and (max-width: 500px) {
+  .card-container .card3 p {
+    text-align: center;
+    padding: 0 10px;
+  }
 }
 @media (min-width: 1000px) {
   .card-container .card3 p {
@@ -738,34 +818,29 @@ footer .footer-content .footer-section2 p {
 }
 @media (min-width: 100px) and (max-width: 319px) {
   .cta-container .abov-carous-head {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
 }
 @media (min-width: 320px) and (max-width: 500px) {
   .cta-container .abov-carous-head {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 501px) and (max-width: 999px) {
   .cta-container .abov-carous-head {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
 }
 @media (min-width: 1000px) {
   .cta-container .abov-carous-head {
-    font-size: 3rem;
+    font-size: 3.4rem;
   }
 }
 .cta-container .abov-carous-head p {
   font-size: 2rem;
   margin: 20px 0 0 0;
 }
-@media (min-width: 320px) and (max-width: 500px) {
-  .cta-container .abov-carous-head p {
-    font-size: 1.2rem;
-  }
-}
-@media (min-width: 100px) and (max-width: 319px) {
+@media (min-width: 320px) and (max-width: 500px), (min-width: 100px) and (max-width: 319px) {
   .cta-container .abov-carous-head p {
     font-size: 1.2rem;
   }
@@ -777,11 +852,12 @@ footer .footer-content .footer-section2 p {
 }
 .cta-container .carousel {
   width: 100%;
+  max-width: 1400px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 1000px;
+  height: 90vh;
   position: relative;
   overflow: hidden;
   margin: 16px auto 0 auto;
@@ -796,7 +872,7 @@ footer .footer-content .footer-section2 p {
 }
 @media (min-width: 320px) and (max-width: 500px) {
   .cta-container .carousel {
-    height: 500px;
+    height: 80vh;
   }
 }
 @media (min-width: 501px) and (max-width: 999px) {
@@ -839,7 +915,7 @@ footer .footer-content .footer-section2 p {
 .cta-container .carousel img {
   width: 100%;
   max-height: 100%;
-  height: auto;
+  height: fit-content;
   display: none;
 }
 .cta-container .info-container {
@@ -855,7 +931,17 @@ footer .footer-content .footer-section2 p {
 }
 .cta-container .info-container .ic-h2 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
+}
+@media (min-width: 501px) and (max-width: 999px) {
+  .cta-container .info-container .ic-h2 {
+    font-size: 3.2rem;
+  }
+}
+@media (min-width: 1000px) {
+  .cta-container .info-container .ic-h2 {
+    font-size: 3.4rem;
+  }
 }
 .cta-container .info-container .info {
   display: flex;
@@ -863,12 +949,16 @@ footer .footer-content .footer-section2 p {
   justify-content: space-between;
 }
 .cta-container .info-container .info .info-card h2 {
-  font-size: 2.2rem;
-  padding: 20px 0 10px 0;
+  font-size: 2rem;
+  padding: 20px 0 15px 0;
 }
 .cta-container .info-container .info .info-card p {
   font-size: 1.2rem;
   letter-spacing: 0.7px;
+  padding-bottom: 20px;
+}
+.cta-container .info-container .info .info-card p a {
+  color: #44398c;
 }
 .about {
   margin: 4rem auto;
