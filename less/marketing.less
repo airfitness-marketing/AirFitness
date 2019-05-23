@@ -18,8 +18,7 @@
 
 
     .abov-carous-head {
-        margin: 50px 0 30px 0;
-        padding: 40px 0;
+        padding: 75px 0 36px 0;
         text-align: center;
         color: @mako;
         letter-spacing: 1px;
@@ -175,7 +174,8 @@
             @media @tablet,
             @desktop {
                 flex-direction: row;
-                justify-content: space-around;
+                justify-content: space-between;
+                flex-wrap: wrap;
             }
 
             .info-card {
@@ -186,12 +186,16 @@
                 }
 
                 .list-group {
+                    padding: 0 0 20px 0;
 
                     .list-group-item {
-                        // border: none;
                         font-size: 1.2rem;
                         letter-spacing: .6px;
                     }
+                }
+
+                .list-group:nth-child(2) {
+                    padding: 0;
                 }
 
                 h2 {
@@ -207,6 +211,7 @@
 
                     a {
                         color: @black;
+                        text-decoration: underline;
                     }
 
                     mark {
