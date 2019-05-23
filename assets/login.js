@@ -19,6 +19,7 @@ class Form {
             alert('ERROR');
         } else {
             alert('You are loged in.');
+            this.form.setAttribute('action', 'index.html');
         }
     }
 }
