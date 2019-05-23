@@ -972,6 +972,7 @@ footer .footer-content .footer-section2 p {
 }
 .cta-container .info-container .info .info-card h2 {
   font-size: 2rem;
+  font-weight: 600;
   padding: 20px 0 15px 0;
 }
 .cta-container .info-container .info .info-card p {
