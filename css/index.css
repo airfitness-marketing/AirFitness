@@ -916,6 +916,7 @@ footer .footer-content .footer-section2 p {
   top: 50%;
   left: 25px;
   transform: translate(0, -50%);
+  z-index: 1;
 }
 .cta-container .carousel .right-button {
   top: 50%;
