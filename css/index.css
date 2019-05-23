@@ -970,6 +970,10 @@ footer .footer-content .footer-section2 p {
     width: 45%;
   }
 }
+.cta-container .info-container .info .info-card .list-group .list-group-item {
+  font-size: 1.2rem;
+  letter-spacing: 0.6px;
+}
 .cta-container .info-container .info .info-card h2 {
   font-size: 2rem;
   font-weight: 600;
@@ -981,7 +985,10 @@ footer .footer-content .footer-section2 p {
   padding-bottom: 20px;
 }
 .cta-container .info-container .info .info-card p a {
-  color: #44398c;
+  color: #000000;
+}
+.cta-container .info-container .info .info-card p mark {
+  background-color: #cccdd6;
 }
 .about {
   margin: 4rem auto;
