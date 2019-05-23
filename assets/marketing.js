@@ -15,7 +15,7 @@ class Carousel {
 
     scrollLeft() {
         if (this.count === 0) {
-            this.count = this.imageNum -1;
+            this.count = this.imageNum - 1;
         } else {
             this.count -= 1;
         }
@@ -25,7 +25,7 @@ class Carousel {
     }
 
     scrollRight() {
-        if (this.count === this.imageNum -1) {
+        if (this.count === this.imageNum - 1) {
             this.count = 0;
         } else {
             this.count += 1;
