@@ -18,8 +18,7 @@
 
 
     .abov-carous-head {
-        margin: 50px 0 30px 0;
-        padding: 40px 0;
+        padding: 75px 0 36px 0;
         text-align: center;
         color: @mako;
         letter-spacing: 1px;
@@ -176,7 +175,8 @@
             @media @tablet,
             @desktop {
                 flex-direction: row;
-                justify-content: space-around;
+                justify-content: space-between;
+                flex-wrap: wrap;
             }
 
             .info-card {
@@ -186,19 +186,42 @@
                     width: 45%;
                 }
 
+                .list-group {
+                    padding: 0 0 20px 0;
+
+                    .list-group-item {
+                        font-size: 1.2rem;
+                        letter-spacing: .6px;
+                        // border: none;
+                    }
+
+                    h2 {
+                        font-size: 1.8rem;
+                    }
+                }
+
+                .list-group:nth-child(2) {
+                    padding: 0;
+                }
+
                 h2 {
-                    font-size: 2rem;
+                    font-size: 2.1rem;
                     font-weight: 600;
                     padding: 20px 0 15px 0;
                 }
 
                 p {
-                    font-size: 1.2rem;
+                    font-size: 1.3rem;
                     letter-spacing: .7px;
                     padding-bottom: 20px;
 
                     a {
-                        color: @gigas;
+                        color: @blue-violet;
+                        text-decoration: underline;
+                    }
+
+                    mark {
+                        background-color: @white-lilac;
                     }
                 }
             }
